@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body><center>
+    <h1>Registration Form</h1>
+    <form>
+        <label for="firstname">First Name:</label>
+        <input type="text" id="name" name="firstname" required min="3"><br><br>
+	<label for="lastname">Last Name:</label>
+        <input type="text" id="name" name="lastname" required><br><br>
+
+        <label for="birthdate">Birth Date:</label>
+        <input type="date" id="birthdate" name="birthdate" required><br><br>
+	
+	<label for="gender">Gender:</label>
+	<label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+<br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+	 <label for="city">City:</label>
+        <select id="city" name="city" required>
+	    <option value="" disabled selected>Select a city</option>
+            <option value="Chennai">Mumbai</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Mumbai">Chennai</option>
+            <option value="Hyderabad">Hyderabad</option>
+        </select><br><br>
+        
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" required></textarea><br><br>
+        
+	<label for="pincode">Pin Code:</label>
+        <input type="number" id="pincode" name="pincode" required max="6"><br><br>
+
+	<label for="mobile">Mobile Number:</label>
+        <input type="number" id="mobile" name="mobile" required max="10"><br><br>
+	
+	<label for="time">Preferred Time for Contacting:</label>
+        <label for="time1">Morning</label>
+        <input type="checkbox" id="time1" name="time" value="morning" required>
+        
+        <label for="time2">Afternoon</label>
+        <input type="checkbox" id="time2" name="time" value="afternoon" required>
+        
+        <label for="time3">Evening</label>
+        <input type="checkbox" id="time3" name="time" value="evening" required><br><br>
+
+        <button type="submit" onclick="alert('Registration successful!')">Submit</button>
+    </form></center>
+</body>
+</html>
