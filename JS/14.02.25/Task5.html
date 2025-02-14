@@ -1,0 +1,18 @@
+<html> 
+<body>
+<h2>Create a Confirm Box</h2>
+<button onclick="confirmBox()">Confirm Box</button>
+<p id="id1"></p>
+<script>
+function confirmBox() {
+  var choice;
+  if (confirm("Do you want to go to the film today?")) {
+    choice = "You will go to the film today!";
+  } else {
+    choice = "You won't go to the film today.";
+  }
+  document.getElementById("id1").innerHTML = choice;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<html>
+<body>
+<h2>Create a Prompt Box</h2>
+<button onclick="promptBox()">Prompt Box</button>
+<p id="id2"></p>
+<script>
+function promptBox() {
+  let msg;
+  let age = prompt("Enter your age:");
+  if (age == null || age == "") {
+    msg = "You cancelled the prompt.";
+  } else {
+    msg = "Your age is: " + age;
+  }
+  document.getElementById("id2").innerHTML = msg;
+}
+</script>
+</body>
+</html>
