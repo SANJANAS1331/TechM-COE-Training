@@ -1,0 +1,12 @@
+first.html
+----------
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Servlet_Program</title>
+</head>
+<body>
+<p>This is an example program.</p>
+</body>
+</html>
