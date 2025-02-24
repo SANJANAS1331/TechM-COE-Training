@@ -1,0 +1,55 @@
+sql
+---
+CREATE DATABASE db2;
+USE db2;
+
+CREATE TABLE Products (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    price DECIMAL(10,2),
+    quantity INT
+);
+
+INSERT INTO Products (name, price, quantity) VALUES
+('Laptop', 75000, 5),
+('Phone', 45000, 10),
+('Tablet', 30000, 7),
+('Smartwatch', 15000, 15),
+('Headphones', 5000, 20);
+
+DeleteRow.java
+--------------
+import java.sql.*;
+import java.util.Scanner;
+
+public class DeleteRow {
+    private static final String URL = "jdbc:mysql://localhost:3306/db2";
+    private static final String USER = "root";
+    private static final String PASSWORD = "#MySQL@2025";
+
+    public static void main(String[] args) {
+        try (Connection conn = DriverManager.getConnection(URL, USER, PASSWORD);
+             Scanner scanner = new Scanner(System.in)) {
+
+            System.out.println("Connected to StoreDB!");
+            System.out.print("Enter Product ID to delete: ");
+            int productId = scanner.nextInt();
+
+            String sql = "DELETE FROM Products WHERE id = ?";
+            try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
+                pstmt.setInt(1, productId);
+
+                int rowsAffected = pstmt.executeUpdate();
+                if (rowsAffected > 0) {
+                    System.out.println("Product deleted successfully!");
+                } else {
+                    System.out.println("No product found with the given ID.");
+                }
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
