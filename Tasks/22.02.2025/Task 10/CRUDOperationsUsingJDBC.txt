@@ -1,0 +1,94 @@
+sql
+---
+CREATE DATABASE db2;
+
+USE db2;
+
+CREATE TABLE Products (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    price DECIMAL(10,2),
+    quantity INT
+);
+
+JDBCCrudOperations.java
+-----------------------
+import java.sql.*;
+import java.util.Scanner;
+
+public class JDBCCrudOperations {
+    private static final String URL = "jdbc:mysql://localhost:3306/db2";
+    private static final String USER = "root";
+    private static final String PASSWORD = "#MySQL@2025";
+
+    public static void main(String[] args) {
+        try (Connection conn = DriverManager.getConnection(URL, USER, PASSWORD);
+             Scanner scanner = new Scanner(System.in)) {
+
+            System.out.println("Connected to StoreDB!");
+
+            insertProduct(conn, "Laptop", 75000, 5);
+            insertProduct(conn, "Phone", 40000, 10);
+            displayProducts(conn);
+            updateProductPrice(conn, 1, 72000);
+            deleteProduct(conn, 2);
+            displayProducts(conn);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void insertProduct(Connection conn, String name, double price, int quantity) {
+        String sql = "INSERT INTO Products (name, price, quantity) VALUES (?, ?, ?)";
+        try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
+            pstmt.setString(1, name);
+            pstmt.setDouble(2, price);
+            pstmt.setInt(3, quantity);
+            pstmt.executeUpdate();
+            System.out.println("Product " + name + " added successfully.");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void displayProducts(Connection conn) {
+        String sql = "SELECT * FROM Products";
+        try (Statement stmt = conn.createStatement();
+             ResultSet rs = stmt.executeQuery(sql)) {
+
+            System.out.println("\nProduct List:");
+            while (rs.next()) {
+                System.out.println("ID: " + rs.getInt("id") +
+                        ", Name: " + rs.getString("name") +
+                        ", Price: " + rs.getDouble("price") +
+                        ", Quantity: " + rs.getInt("quantity"));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void updateProductPrice(Connection conn, int id, double newPrice) {
+        String sql = "UPDATE Products SET price = ? WHERE id = ?";
+        try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
+            pstmt.setDouble(1, newPrice);
+            pstmt.setInt(2, id);
+            int rowsAffected = pstmt.executeUpdate();
+            System.out.println(rowsAffected + " Product price updated successfully.");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void deleteProduct(Connection conn, int id) {
+        String sql = "DELETE FROM Products WHERE id = ?";
+        try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
+            pstmt.setInt(1, id);
+            int rowsAffected = pstmt.executeUpdate();
+            System.out.println(rowsAffected + " Product deleted successfully.");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+}
