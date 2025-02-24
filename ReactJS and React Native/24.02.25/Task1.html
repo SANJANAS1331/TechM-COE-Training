@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root1"></div>  
+    <div id="root2"></div>  
+    <div id="root3"></div> 
+    <script type ="text/jsx">
+        const root1 = ReactDOM.createRoot(document.getElementById('root1'));
+        root1.render(<h2>This is an H2 Heading</h2>);
+        const root2 = ReactDOM.createRoot(document.getElementById('root2'));
+        root2.render(<h4>This is an H4 Heading</h4>);
+        const root3 = ReactDOM.createRoot(document.getElementById('root3'));
+        root3.render(<p>This is a Paragraph.</p>);
+    </script> 
+  </body>
+</html>
