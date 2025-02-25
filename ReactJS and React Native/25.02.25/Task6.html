@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flower Check</title>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root1"></div>
+    <div id="root2"></div>
+    <div id="root3"></div>
+
+    <script type="text/jsx">
+      function isFlower(name) {
+        const flowers = ["Rose", "Jasmine", "Lotus"];
+        return flowers.includes(name);
+      }
+
+      function IfCondition({ text }) {
+        let result;
+        if (isFlower(text)) {
+          result = `${text} is a flower.`;
+        } else {
+          result = `${text} is not a flower.`;
+        }
+        return (
+          <div>
+            <h3>Using If Condition:</h3>
+            <p>{result}</p>
+          </div>
+        );
+      }
+
+      function LogicalCondition({ text }) {
+        return (
+          <div>
+            <h3>Using Logical && Condition:</h3>
+            <p>
+              {(isFlower(text) && `${text} is a flower.`) ||
+                `${text} is not a flower.`}
+            </p>
+          </div>
+        );
+      }
+
+      function TernaryOperator({ text }) {
+        return (
+          <div>
+            <h3>Using Ternary Operator:</h3>
+            <p>
+              {isFlower(text)
+                ? `${text} is a flower.`
+                : `${text} is not a flower.`}
+            </p>
+          </div>
+        );
+      }
+
+      const root1 = ReactDOM.createRoot(document.getElementById("root1"));
+      root1.render(<IfCondition text="Rose" />);
+
+      const root2 = ReactDOM.createRoot(document.getElementById("root2"));
+      root2.render(<LogicalCondition text="Sunflower" />);
+
+      const root3 = ReactDOM.createRoot(document.getElementById("root3"));
+      root3.render(<TernaryOperator text="Lily" />);
+    </script>
+  </body>
+</html>
