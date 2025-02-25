@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>String Length Check</title>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root1"></div>
+    <div id="root2"></div>
+    <div id="root3"></div>
+
+    <script type="text/jsx">
+      function IfCondition({ str }) {
+        let result;
+        if (str.length % 2 === 0) {
+          result = `The length of the string "${str}" is even.`;
+        } else {
+          result = `The length of the string "${str}" is odd.`;
+        }
+        return (
+          <div>
+            <h3>Using If Condition:</h3>
+            <p>{result}</p>
+          </div>
+        );
+      }
+
+      function LogicalCondition({ str }) {
+        return (
+          <div>
+            <h3>Using Logical && Condition:</h3>
+            <p>
+              {(str.length % 2 === 0 && `The length of the string "${str}" is even.`) || 
+                `The length of the string "${str}" is odd.`}
+            </p>
+          </div>
+        );
+      }
+
+      function TernaryOperator({ str }) {
+        return (
+          <div>
+            <h3>Using Ternary Operator:</h3>
+            <p>
+              {str.length % 2 === 0 
+                ? `The length of the string "${str}" is even.` 
+                : `The length of the string "${str}" is odd.`}
+            </p>
+          </div>
+        );
+      }
+
+      const root1 = ReactDOM.createRoot(document.getElementById("root1"));
+      root1.render(<IfCondition str="Content" />);
+
+      const root2 = ReactDOM.createRoot(document.getElementById("root2"));
+      root2.render(<LogicalCondition str="Delivery" />);
+
+      const root3 = ReactDOM.createRoot(document.getElementById("root3"));
+      root3.render(<TernaryOperator str="Network" />);
+    </script>
+  </body>
+</html>
