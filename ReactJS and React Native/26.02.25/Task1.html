@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CheckDivisiblity</title>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div> 
+    <script type ="text/jsx">
+        function Divisible(props) {
+            return <h1>{props.num} is divisible by 13.</h1>;
+        }
+        function NotDivisible(props) {
+            return <h1>{props.num} is not divisible by 13.</h1>;
+        }
+        
+        function Divisibility(props) {
+          const isNum = props.num;
+          if (isNum%13==0) {
+            return <Divisible num={isNum}/>;
+          }
+          else {
+          return <NotDivisible num={isNum}/>;
+          }
+        }
+        
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<Divisibility num="987" />);
+    </script> 
+  </body>
+</html>
