@@ -18,15 +18,15 @@
     <div id="root"></div> 
     <script type ="text/jsx">
         function Divisible(props) {
-            return <h1>{props.num} is divisible by 13.</h1>;
+            return <h1>{props.num} is divisible by 16.</h1>;
         }
         function NotDivisible(props) {
-            return <h1>{props.num} is not divisible by 13.</h1>;
+            return <h1>{props.num} is not divisible by 16.</h1>;
         }
         
         function Divisibility(props) {
           const isNum = props.num;
-          if (isNum%13==0) {
+          if (isNum%16==0) {
             return <Divisible num={isNum}/>;
           }
           else {
