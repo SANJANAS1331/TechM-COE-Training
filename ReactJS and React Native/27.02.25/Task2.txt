@@ -20,7 +20,7 @@ import C2 from "./f1/C2";
 import './App.css'
 
 const C1 = () => (
-  <div style={{ padding: '0.5rem', backgroundColor: '#BFDBFE' }}>
+  <div style={{ padding: '0.73rem', backgroundColor: '#BFDBFE' }}>
     <h2>Welcome to Your Adventure Planning!</h2>
     <p>Get ready to organize your trip step-by-step with our easy-to-follow checklist.</p>
     <C2 />
@@ -39,7 +39,7 @@ const C3 = lazy(() => import("./C3"));
 const C4 = lazy(() => import("../../f2/C4")); 
 
 const C2 = () => (
-  <div style={{ padding: '0.5rem', backgroundColor: '#BBF7D0' }}>
+  <div style={{ padding: '0.73rem', backgroundColor: '#BBF7D0' }}>
     <h2>Start Packing for Your Journey!</h2>
     <p>Click the buttons below to begin adding and organizing your travel essentials.</p>
 
@@ -62,7 +62,7 @@ C3.jsx
 import React from "react";
 
 const C3 = () => (
-  <div style={{ padding: '0.5rem', backgroundColor: '#FDE68A' }}>
+  <div style={{ padding: '0.73rem', backgroundColor: '#FDE68A' }}>
     <h3>Your Packing List</h3>
     <p>Start by adding the basics: clothes, toiletries, and any must-have items for your trip!</p>
   </div>
@@ -77,7 +77,7 @@ C4.jsx
 import React from "react";
 
 const C4 = () => (
-  <div style={{ padding: '0.5rem', backgroundColor: '#FCA5A5' }}>
+  <div style={{ padding: '0.73rem', backgroundColor: '#FCA5A5' }}>
     <h3>Check Your Essentials</h3>
     <p>Did you pack your passport, tickets, and charger? Double-check these crucial items before leaving!</p>
   </div>
@@ -90,7 +90,7 @@ C5.jsx
 import React from "react";
 
 const C5 = () => (
-  <div style={{ padding: '0.5rem', backgroundColor: '#D6BCFA' }}>
+  <div style={{ padding: '0.73rem', backgroundColor: '#D6BCFA' }}>
     <h3>You're Ready to Go!</h3>
     <p>Everything's packed, and you're all set. Safe travels and enjoy your trip!</p>
   </div>
