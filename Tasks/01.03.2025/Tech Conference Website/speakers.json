@@ -1,0 +1,28 @@
+[
+    {
+      "name": "John Peter",
+      "topic": "The Future of AI",
+      "image": "images/speaker1.jpg"
+    },
+    {
+      "name": "Albert Britto",
+      "topic": "Cybersecurity Trends",
+      "image": "images/speaker2.jpg"
+    },
+    {
+      "name": "Sandra Williams",
+      "topic": "Blockchain in Finance",
+      "image": "images/speaker3.jpg"
+    },
+    {
+      "name": "Robert Ben",
+      "topic": "Cloud Innovations",
+      "image": "images/speaker4.jpg"
+    },
+    {
+      "name": "Raechel Mary",
+      "topic": "Future UX Design",
+      "image": "images/speaker5.jpg"
+    }
+  ]
+

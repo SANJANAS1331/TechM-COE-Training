@@ -1,0 +1,32 @@
+[
+    { 
+        "time": "09:00 AM", 
+        "topic": "Welcome Keynote", 
+        "session": "AI" 
+    },
+    { 
+        "time": "11:00 AM", 
+        "topic": "The Future of AI", 
+        "session": "AI" 
+    },
+    { 
+        "time": "11:30 PM", 
+        "topic": "Cybersecurity Trends", 
+        "session": "Cybersecurity" 
+    },
+    { 
+        "time": "12:30 PM", 
+        "topic": "Blockchain in Finance", 
+        "session": "Blockchain" 
+    },
+    { 
+        "time": "02:00 PM", 
+        "topic": "Cloud Innovations", 
+        "session": "Cloud" 
+    },
+    { 
+        "time": "03:00 PM", 
+        "topic": "Future UX Design", 
+        "session": "UX" 
+    }
+]

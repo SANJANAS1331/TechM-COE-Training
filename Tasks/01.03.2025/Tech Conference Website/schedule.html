@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnovateX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>InnovateX</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="speakers.html">Speakers</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <center>
+        <div id="schedule">
+            <h2>Tech Conference Schedule</h2>
+            <p>Stay tuned for an exciting lineup of tech talks and workshops.</p>
+
+            <label for="track-filter">Event Timeline:</label>
+            <select id="track-filter">
+                <option value="all">All Sessions</option>
+                <option value="AI">Artificial Intelligence</option>
+                <option value="Cybersecurity">Cybersecurity</option>
+                <option value="Blockchain">Blockchain</option>
+                <option value="Cloud">Cloud Computing</option>
+		<option value="UX">UX Design</option>
+            </select>
+
+            <div id="schedule-list" class="schedule-container">
+                <p>Loading schedule...</p>
+            </div>
+        </div>
+    </center>
+
+    <script id="scheduleData" type="application/json">
+    [
+        { "time": "10:30 AM", "topic": "Future of AI", "track": "AI" },
+        { "time": "11:30 PM", "topic": "Cybersecurity Trends", "track": "Cybersecurity" },
+        { "time": "12:30 PM", "topic": "Finance in Blockchain", "track": "Blockchain" },
+        { "time": "01:45 PM", "topic": "Cloud Innovations", "track": "Cloud" },
+	{ "time": "02:45 PM", "topic": "Future UX Design", "track": "UX" }
+    ]
+    </script>
+
+    <footer>
+        <p>&copy; 2025 InnovateX. All rights reserved.</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
