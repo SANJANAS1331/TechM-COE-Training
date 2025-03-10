@@ -1,0 +1,2022 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "name": "Web Development Basics",
+      "description": "Learn the fundamentals of web development.",
+      "level": "Beginner",
+      "duration": "Less Than 2 Hours",
+      "image": "course1.jpg",
+      "contents": [
+        "This course introduces the fundamentals of web development, covering HTML, CSS, and JavaScript. By the end, learners will have the skills to build and structure basic websites and apply essential web design principles.",
+        "Module 1: Introduction to HTML",
+        "Lesson 1.1: Understanding the Structure of a Webpage",
+        "HTML (HyperText Markup Language) is the foundation of web development. It structures the content on a webpage, defining elements like headings, paragraphs, images, and links. Without HTML, web pages would not exist.",
+        "Every webpage follows a specific structure that consists of essential elements. The head section contains metadata, such as the page title and linked stylesheets, while the body section contains visible content like text, images, and buttons.",
+        "The Document Object Model (DOM) represents the page structure as a tree, where each HTML element is a node. Browsers use the DOM to render web pages and apply styling and interactivity.",
+        "Lesson 1.2: HTML Tags and Elements",
+        "HTML consists of various tags, each with a unique role in structuring content. Some tags define headings, paragraphs, and lists, while others create tables, forms, and multimedia elements.",
+        "Elements in HTML are categorized into block-level and inline elements. Block-level elements take up the full width of their container, starting on a new line, whereas inline elements take up only as much space as needed without breaking onto a new line.",
+        "Semantic HTML refers to using meaningful tags that improve accessibility and search engine optimization (SEO). Elements like headers, sections, and articles enhance readability and provide structure for both users and search engines.",
+        "Lesson 1.3: Creating a Basic HTML Document",
+        "A well-formed HTML document requires a declaration of the document type, followed by structured elements such as the head and body sections. The head contains metadata, including the document’s character encoding, viewport settings for mobile responsiveness, and the page title.",
+        "The body contains all the visible content, including headings, paragraphs, images, and navigation elements. Organizing content properly ensures that web pages are easy to read and navigate.",
+        "Module 2: CSS Basics",
+        "Lesson 2.1: Introduction to CSS and Its Role",
+        "CSS (Cascading Style Sheets) enhances the visual appearance of web pages by defining styles for HTML elements. CSS controls layout, colors, fonts, spacing, and other visual properties.",
+        "There are three main ways to apply CSS: inline styles (within HTML elements), internal styles (within the head section), and external stylesheets (linked CSS files). Using external stylesheets is the preferred approach for maintaining consistency across multiple pages.",
+        "Lesson 2.2: CSS Syntax and Selectors",
+        "CSS follows a specific syntax that consists of selectors, properties, and values. Selectors define which elements to style, while properties and values determine how those elements appear.",
+        "Different types of selectors exist, including element selectors, class selectors, and ID selectors. Multiple selectors can be combined to target specific elements more precisely. Understanding CSS selectors is essential for applying styles efficiently.",
+        "Lesson 2.3: Styling Text and Backgrounds",
+        "CSS allows customization of text properties such as font family, size, weight, and color. Proper typography improves readability and enhances user experience.",
+        "Background styles include colors, images, and gradients, which help create visually appealing designs. Additionally, spacing properties such as margins and padding control the positioning of elements on the page.",
+        "Lesson 2.4: Using Classes and IDs for Styling",
+        "Classes and IDs provide a way to apply styles to specific elements. Classes are reusable and can be assigned to multiple elements, while IDs are unique and apply to only one element.",
+        "CSS specificity determines which styles take precedence when multiple rules apply to the same element. Understanding specificity ensures that styles are applied as intended without conflicts.",
+        "Module 3: JavaScript Overview",
+        "Lesson 3.1: Introduction to JavaScript and Its Importance",
+        "JavaScript is a programming language that adds interactivity to web pages. It enables dynamic content, such as interactive forms, animations, and real-time updates.",
+        "JavaScript is mainly used on the client side, meaning it runs in the user’s browser. However, it can also be used on the server side with technologies like Node.js.",
+        "Lesson 3.2: Basic Syntax and Data Types",
+        "JavaScript follows a structured syntax that includes statements, variables, functions, and control structures. Understanding the correct syntax is essential for writing error-free code.",
+        "Data types in JavaScript include strings, numbers, booleans, arrays, and objects. Each type serves a specific purpose, and using the right data type ensures efficient program execution.",
+        "Lesson 3.3: Variables and Operators",
+        "Variables store data and can be declared using different keywords, such as var, let, and const. Choosing the right variable type is important for code performance and readability.",
+        "Operators perform calculations and comparisons in JavaScript. Arithmetic operators handle mathematical operations, comparison operators compare values, and logical operators evaluate conditions.",
+        "Lesson 3.4: Writing Simple JavaScript Programs",
+        "JavaScript enables interactivity by manipulating the DOM. Event listeners allow elements to respond to user actions, such as clicks and key presses.",
+        "By combining JavaScript with HTML and CSS, developers can create engaging web pages with dynamic elements, such as dropdown menus, image sliders, and form validations.",
+        "Module 4: Building a Simple Website",
+        "Lesson 4.1: Combining HTML, CSS, and JavaScript",
+        "A well-structured website integrates HTML for content, CSS for styling, and JavaScript for interactivity. Understanding how these technologies work together is crucial for creating functional web pages.",
+        "HTML provides the content structure, CSS enhances the visual presentation, and JavaScript enables interactive elements like buttons, animations, and real-time updates.",
+        "Lesson 4.2: Creating a Multi-Page Website",
+        "Websites often consist of multiple pages linked together. Navigation elements, such as menus and buttons, allow users to move between different sections.",
+        "Each page should follow a consistent structure and design to ensure a smooth user experience. Proper navigation improves usability and accessibility.",
+        "Lesson 4.3: Adding Navigation and Links",
+        "Navigation bars organize links to different pages, helping users explore the site easily. Links can be internal (within the same site) or external (leading to other websites).",
+        "Well-designed navigation enhances the user experience by providing clear pathways to important content. Using semantic HTML elements, such as lists and nav tags, improves accessibility.",
+        "Lesson 4.4: Basic Web Design Principles",
+        "Effective web design focuses on layout, color schemes, typography, and accessibility. A well-structured page layout ensures content is easy to read and navigate.",
+        "Color schemes influence user perception and brand identity, while typography affects readability and aesthetic appeal. Accessibility features, such as alternative text for images and keyboard navigation, ensure inclusivity for all users.",
+        "Final Project: Building Your First Website",
+        "The final project involves creating a complete website using the skills learned throughout the course. This project allows learners to apply their knowledge in a practical setting.",
+        "The project should include multiple pages, a navigation menu, styled content, and basic interactive features. By receiving feedback, learners can refine their work and improve their web development skills."
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Advanced JavaScript",
+      "description": "Deep dive into JS concepts and best practices.",
+      "level": "Advanced",
+      "duration": "2 Weeks",
+      "image": "course2.jpg",
+      "contents": [
+        "This course explores advanced JavaScript concepts, focusing on best practices for writing clean, efficient, and scalable code. By the end, learners will have the skills to optimize performance, manage asynchronous tasks, and apply advanced patterns in JavaScript.",
+        "Module 1: Advanced JavaScript Fundamentals",
+        "Lesson 1.1: Understanding Execution Context and Scope",
+        "JavaScript’s execution context determines how variables and functions are accessed. It controls how functions run and how variables persist across different scopes. Understanding global, function, and block scope helps prevent unexpected behavior.",
+        "Every JavaScript program follows a specific execution model that consists of essential phases. The call stack manages function execution, while the event loop ensures smooth handling of asynchronous operations.",
+        "The execution context comprises the memory creation phase and the execution phase. Variables and functions are stored in memory before execution begins, ensuring proper scope management.",
+        "Lesson 1.2: Closures and Lexical Scope",
+        "Closures allow functions to retain access to their lexical scope even after execution. This makes them useful for encapsulating data and creating private variables.",
+        "Every function in JavaScript forms a closure, capturing the variables from its surrounding scope. Closures are commonly used in callbacks, event handlers, and functional programming patterns.",
+        "Lexical scoping ensures that inner functions have access to outer function variables. This concept is key to understanding how closures maintain state over time.",
+        "Lesson 1.3: The 'this' Keyword and Binding Methods",
+        "The behavior of 'this' varies depending on how a function is called. It can refer to different objects depending on the execution context.",
+        "Arrow functions do not have their own 'this' and inherit it from their surrounding scope. Methods like call, apply, and bind allow explicit control over 'this' binding.",
+        "Strict mode changes the default behavior of 'this' in function calls. Instead of pointing to the global object, 'this' remains undefined when not explicitly set.",
+        "Module 2: Object-Oriented JavaScript (OOP) and Design Patterns",
+        "Lesson 2.1: Prototypes and Inheritance",
+        "JavaScript uses prototype-based inheritance, allowing objects to share properties efficiently. This reduces memory consumption and improves performance.",
+        "The prototype chain enables objects to inherit methods from other objects. Understanding this mechanism helps developers write reusable and modular code.",
+        "ES6 introduced 'class' syntax, making object-oriented programming more intuitive. However, classes still work on top of JavaScript’s prototype-based system.",
+        "Lesson 2.2: JavaScript Design Patterns",
+        "Design patterns provide reusable solutions to common coding problems. Patterns like Singleton, Factory, and Observer improve code structure and maintainability.",
+        "The Module pattern encapsulates code within private scopes, using closures to create self-contained components. This improves organization and prevents variable conflicts.",
+        "Applying design patterns enhances scalability, ensuring that JavaScript applications remain efficient and easy to extend over time.",
+        "Lesson 2.3: Encapsulation, Abstraction, and Modules",
+        "Encapsulation restricts access to object properties, promoting data integrity. Private variables and closures help enforce encapsulation in JavaScript.",
+        "Abstraction simplifies complex logic by exposing only necessary details. It improves readability and reduces the risk of unintended modifications.",
+        "ES6 modules allow developers to split code into reusable files. Importing and exporting modules keeps applications modular and maintainable.",
+        "Module 3: Asynchronous JavaScript and Performance Optimization",
+        "Lesson 3.1: Callbacks, Promises, and Async/Await",
+        "Asynchronous programming prevents blocking operations, improving user experience. Callbacks were the original approach but often led to complex, nested code.",
+        "Promises simplified async programming by handling success and failure cases more cleanly. They avoid callback hell and make chaining operations easier.",
+        "Async/await further improves readability by allowing asynchronous code to look synchronous. It simplifies error handling and debugging in modern JavaScript applications.",
+        "Lesson 3.2: Event Loop and Microtasks",
+        "The event loop manages JavaScript’s asynchronous behavior. It ensures that non-blocking operations run smoothly alongside synchronous code execution.",
+        "Tasks are processed in different queues, such as macro and microtasks. Microtasks, including promise callbacks, run before the next rendering cycle.",
+        "Understanding how the event loop works helps optimize performance. Developers can prevent bottlenecks by prioritizing tasks effectively.",
+        "Lesson 3.3: Web APIs, Fetch, and AJAX",
+        "Web APIs provide built-in functionality for interacting with the browser and external servers. They enable features like DOM manipulation and data fetching.",
+        "The Fetch API allows making HTTP requests in a modern, promise-based way. It replaces older techniques like XMLHttpRequest, offering cleaner syntax.",
+        "Asynchronous requests improve user experience by loading data dynamically. Proper error handling ensures reliable network communication.",
+        "Lesson 3.4: Performance Optimization Techniques",
+        "Efficient JavaScript improves load times and responsiveness. Techniques like lazy loading and request batching reduce unnecessary computations.",
+        "Memory leaks occur when unused variables persist in memory. Using garbage collection strategies prevents performance degradation over time.",
+        "Reducing DOM reflows and repaints enhances rendering speed. Minimizing CSS changes and avoiding inline styles helps improve page responsiveness.",
+        "Module 4: Advanced Functional Programming in JavaScript",
+        "Lesson 4.1: Higher-Order Functions and Functional Composition",
+        "Higher-order functions accept other functions as arguments or return them. They enable better modularity and reusability in JavaScript code.",
+        "Functional composition chains multiple functions together to transform data step by step. This improves readability and maintainability in complex applications.",
+        "Array methods like map, filter, and reduce utilize higher-order functions. They simplify common tasks such as data filtering and transformation.",
+        "Lesson 4.2: Pure Functions and Immutability",
+        "Pure functions always return the same output for a given input. They do not cause side effects, making them easier to test and debug.",
+        "Immutability prevents unintended changes to data structures. Functional programming techniques encourage working with immutable objects.",
+        "Immutable data structures help maintain application state predictably. Libraries like Immutable.js assist in enforcing immutability in JavaScript.",
+        "Lesson 4.3: Currying and Partial Application",
+        "Currying breaks down functions into smaller, reusable ones. It allows fixing some arguments while keeping others dynamic for later use.",
+        "Partial application creates specialized functions by pre-setting arguments. This improves reusability and simplifies complex logic.",
+        "These techniques are commonly used in functional programming. They make code more flexible by enabling incremental function execution.",
+        "Lesson 4.4: Error Handling and Debugging Best Practices",
+        "Effective debugging relies on tools like console.log and breakpoints. Using browser developer tools simplifies tracking down issues.",
+        "Try-catch blocks handle runtime errors gracefully. Logging frameworks help monitor application behavior and catch unexpected issues.",
+        "Error handling prevents application crashes and improves stability. Proper exception management ensures smooth user experience.",
+        "Final Project: Building an Optimized JavaScript Application",
+        "The final project involves creating a scalable JavaScript application using best practices. This includes optimizing performance, handling asynchronous tasks, and structuring code effectively.",
+        "By applying concepts learned, learners will showcase their ability to write efficient, modular, and maintainable JavaScript code.",
+        "The project should feature dynamic data rendering, optimized event handling, and structured code using modules and patterns."
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Python for Data Science",
+      "description": "Explore data science using Python.",
+      "level": "Intermediate",
+      "duration": "1 Week",
+      "image": "course3.jpg",
+      "contents": [
+        "This course provides an in-depth exploration of data science using Python, focusing on essential libraries, data manipulation techniques, statistical analysis, and machine learning concepts. By the end of this course, learners will have the necessary skills to analyze complex datasets, visualize insights effectively, and apply predictive modeling techniques, ensuring they are well-prepared for real-world data science challenges.",
+        "Module 1: Introduction to Data Science and Python Fundamentals",
+        "Lesson 1.1: Understanding the Importance of Python in Data Science",
+        "Python has become the most widely used programming language in the field of data science due to its simplicity, flexibility, and the extensive collection of libraries designed specifically for handling data, performing analysis, and building predictive models. Its ability to process large datasets efficiently and integrate seamlessly with various machine learning frameworks makes it an indispensable tool for professionals working with data.",
+        "By utilizing Python, data scientists can execute a wide range of tasks, including data preprocessing, feature extraction, statistical analysis, and visualization, all within a single programming environment. The availability of libraries like NumPy, pandas, Matplotlib, and scikit-learn provides a comprehensive toolkit for performing data-driven analysis, making Python a fundamental skill for anyone aspiring to work in the data science domain.",
+        "A solid understanding of Python's role in data science enables learners to apply computational techniques to real-world datasets, extract meaningful insights, and develop models that aid in data-driven decision-making processes across various industries.",
+        "Lesson 1.2: Setting Up the Python Environment for Data Science",
+        "Establishing a well-structured Python environment is essential for efficiently executing data science workflows, ensuring that all necessary tools and dependencies are installed and readily available. Platforms such as Jupyter Notebook, Anaconda, and Google Colab provide interactive coding environments that enable users to write, execute, and visualize code efficiently.",
+        "Installing key Python libraries, including NumPy for numerical operations, pandas for data manipulation, Matplotlib and Seaborn for visualization, and scikit-learn for machine learning, ensures that learners have access to the essential tools required for data analysis. Configuring a virtual environment also helps manage dependencies and prevents version conflicts between different packages, making project execution smoother.",
+        "By setting up a structured Python environment, learners can write, test, and optimize their data science code effectively while leveraging interactive tools to enhance their ability to analyze and interpret complex datasets.",
+        "Module 2: Data Handling, Cleaning, and Exploration",
+        "Lesson 2.1: Working with Data Using pandas",
+        "The pandas library provides powerful data structures such as Series and DataFrames, enabling users to manipulate structured datasets efficiently. Understanding how to load, clean, and transform data using pandas is crucial for preparing raw data for analysis and extracting valuable insights from various sources, including CSV files, databases, and APIs.",
+        "By leveraging pandas, data scientists can perform operations such as filtering, sorting, grouping, merging, and aggregating datasets with ease. Handling missing values, standardizing data formats, and restructuring datasets are essential techniques that ensure data remains clean, consistent, and suitable for further analysis.",
+        "Developing proficiency in data handling with pandas equips learners with the skills needed to preprocess real-world datasets effectively, making them ready for statistical analysis, visualization, and predictive modeling applications.",
+        "Lesson 2.2: Exploratory Data Analysis (EDA) Techniques",
+        "Exploratory Data Analysis (EDA) plays a critical role in understanding the characteristics of a dataset, identifying patterns, detecting anomalies, and establishing relationships between variables before applying advanced statistical models or machine learning algorithms.",
+        "Techniques such as computing summary statistics (mean, median, mode, variance, standard deviation) and visualizing distributions using histograms, box plots, and scatter plots help analysts gain deeper insights into data. Identifying correlations between features through heatmaps and pair plots allows for better feature selection and model optimization.",
+        "A thorough EDA process ensures that data-driven decisions are well-informed, helping learners refine their analytical approaches and make necessary transformations before building predictive models.",
+        "Module 3: Data Visualization and Statistical Analysis",
+        "Lesson 3.1: Data Visualization Using Matplotlib and Seaborn",
+        "Effective data visualization allows analysts to communicate complex information in an intuitive and meaningful way. Python’s Matplotlib and Seaborn libraries provide powerful tools for creating high-quality static and interactive visualizations that reveal hidden patterns in data.",
+        "Matplotlib offers detailed customization options for creating line charts, bar graphs, scatter plots, and histograms, allowing analysts to adjust elements such as color schemes, labels, and annotations to enhance clarity. Seaborn simplifies the process of generating visually appealing statistical plots, including heatmaps, violin plots, and regression plots, making it easier to analyze relationships between variables.",
+        "By mastering data visualization techniques, learners can present findings in a visually compelling manner, making complex data easier to understand and facilitating better decision-making in both research and business applications.",
+        "Lesson 3.2: Introduction to Descriptive and Inferential Statistics",
+        "Statistical analysis is a fundamental aspect of data science, providing the mathematical foundation for drawing conclusions from data. Descriptive statistics, which include measures of central tendency, dispersion, and correlation, help summarize and describe the distribution of a dataset effectively.",
+        "Inferential statistics enable analysts to make predictions and test hypotheses using probability distributions, confidence intervals, and statistical significance tests. Techniques such as t-tests, chi-square tests, and ANOVA help assess differences between groups and determine relationships between variables.",
+        "Understanding both descriptive and inferential statistics empowers learners to interpret data accurately, validate assumptions, and make informed decisions based on statistical evidence, enhancing their ability to perform data-driven research and analysis.",
+        "Module 4: Machine Learning Fundamentals and Model Evaluation",
+        "Lesson 4.1: Introduction to Machine Learning with Python",
+        "Machine learning is a crucial discipline within data science, enabling computers to learn from data and make predictions without being explicitly programmed. Python’s scikit-learn library provides a comprehensive suite of machine learning tools, making it easier to implement, train, and evaluate models.",
+        "Supervised learning techniques such as linear regression, decision trees, and support vector machines allow models to make predictions based on labeled datasets, while unsupervised learning methods, including clustering and dimensionality reduction, help uncover patterns in unlabeled data. Understanding model training, overfitting prevention, and hyperparameter tuning is essential for building effective machine learning solutions.",
+        "By mastering the fundamentals of machine learning with Python, learners can develop predictive models, assess performance, and optimize algorithms, equipping them with the skills needed to apply AI-driven solutions in data science projects.",
+        "Lesson 4.2: Feature Engineering and Model Evaluation Techniques",
+        "Feature engineering is the process of selecting, transforming, and creating features that improve a machine learning model’s performance. Techniques such as one-hot encoding, normalization, feature scaling, and dimensionality reduction help enhance model accuracy and computational efficiency.",
+        "Evaluating machine learning models involves assessing performance using metrics such as accuracy, precision, recall, and F1-score for classification tasks, while metrics like mean squared error (MSE) and R-squared are used for regression models. Cross-validation methods, including k-fold validation, ensure that models generalize well to new data and are not overfitting to training datasets.",
+        "Developing expertise in feature engineering and model evaluation enables learners to refine their machine learning pipelines, optimize predictive performance, and build robust models that can be deployed in real-world applications across various industries.",
+        "Final Project: Building a Data Science Pipeline",
+        "In the final project, learners will apply all the skills acquired throughout the course to develop a complete data science pipeline, covering data preprocessing, exploration, visualization, feature engineering, and machine learning model development.",
+        "Using a real-world dataset, learners will perform in-depth analysis, generate meaningful visualizations, and build a predictive model while optimizing its performance through hyperparameter tuning and validation techniques. Additionally, they will document findings, interpret results, and present insights effectively.",
+        "Completing this project will allow learners to demonstrate their ability to handle end-to-end data science workflows, preparing them for real-world applications in data-driven decision-making, predictive modeling, and business intelligence."
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Machine Learning Basics",
+      "description": "Introduction to machine learning concepts.",
+      "level": "Advanced",
+      "duration": "1 Month",
+      "image": "course4.jpg",
+      "contents": [
+        "This course provides an in-depth exploration of data science using Python, focusing on essential libraries, data manipulation techniques, statistical analysis, and machine learning concepts. By the end of this course, learners will have the necessary skills to analyze complex datasets, visualize insights effectively, and apply predictive modeling techniques, ensuring they are well-prepared for real-world data science challenges.",
+        "Module 1: Introduction to Data Science and Python Fundamentals",
+        "Lesson 1.1: Understanding the Importance of Python in Data Science",
+        "Python has become the most widely used programming language in the field of data science due to its simplicity, flexibility, and the extensive collection of libraries designed specifically for handling data, performing analysis, and building predictive models. Its ability to process large datasets efficiently and integrate seamlessly with various machine learning frameworks makes it an indispensable tool for professionals working with data.",
+        "By utilizing Python, data scientists can execute a wide range of tasks, including data preprocessing, feature extraction, statistical analysis, and visualization, all within a single programming environment. The availability of libraries like NumPy, pandas, Matplotlib, and scikit-learn provides a comprehensive toolkit for performing data-driven analysis, making Python a fundamental skill for anyone aspiring to work in the data science domain.",
+        "A solid understanding of Python's role in data science enables learners to apply computational techniques to real-world datasets, extract meaningful insights, and develop models that aid in data-driven decision-making processes across various industries.",
+        "Lesson 1.2: Setting Up the Python Environment for Data Science",
+        "Establishing a well-structured Python environment is essential for efficiently executing data science workflows, ensuring that all necessary tools and dependencies are installed and readily available. Platforms such as Jupyter Notebook, Anaconda, and Google Colab provide interactive coding environments that enable users to write, execute, and visualize code efficiently.",
+        "Installing key Python libraries, including NumPy for numerical operations, pandas for data manipulation, Matplotlib and Seaborn for visualization, and scikit-learn for machine learning, ensures that learners have access to the essential tools required for data analysis. Configuring a virtual environment also helps manage dependencies and prevents version conflicts between different packages, making project execution smoother.",
+        "By setting up a structured Python environment, learners can write, test, and optimize their data science code effectively while leveraging interactive tools to enhance their ability to analyze and interpret complex datasets.",
+        "Module 2: Data Handling, Cleaning, and Exploration",
+        "Lesson 2.1: Working with Data Using pandas",
+        "The pandas library provides powerful data structures such as Series and DataFrames, enabling users to manipulate structured datasets efficiently. Understanding how to load, clean, and transform data using pandas is crucial for preparing raw data for analysis and extracting valuable insights from various sources, including CSV files, databases, and APIs.",
+        "By leveraging pandas, data scientists can perform operations such as filtering, sorting, grouping, merging, and aggregating datasets with ease. Handling missing values, standardizing data formats, and restructuring datasets are essential techniques that ensure data remains clean, consistent, and suitable for further analysis.",
+        "Developing proficiency in data handling with pandas equips learners with the skills needed to preprocess real-world datasets effectively, making them ready for statistical analysis, visualization, and predictive modeling applications.",
+        "Lesson 2.2: Exploratory Data Analysis (EDA) Techniques",
+        "Exploratory Data Analysis (EDA) plays a critical role in understanding the characteristics of a dataset, identifying patterns, detecting anomalies, and establishing relationships between variables before applying advanced statistical models or machine learning algorithms.",
+        "Techniques such as computing summary statistics (mean, median, mode, variance, standard deviation) and visualizing distributions using histograms, box plots, and scatter plots help analysts gain deeper insights into data. Identifying correlations between features through heatmaps and pair plots allows for better feature selection and model optimization.",
+        "A thorough EDA process ensures that data-driven decisions are well-informed, helping learners refine their analytical approaches and make necessary transformations before building predictive models.",
+        "Module 3: Data Visualization and Statistical Analysis",
+        "Lesson 3.1: Data Visualization Using Matplotlib and Seaborn",
+        "Effective data visualization allows analysts to communicate complex information in an intuitive and meaningful way. Python’s Matplotlib and Seaborn libraries provide powerful tools for creating high-quality static and interactive visualizations that reveal hidden patterns in data.",
+        "Matplotlib offers detailed customization options for creating line charts, bar graphs, scatter plots, and histograms, allowing analysts to adjust elements such as color schemes, labels, and annotations to enhance clarity. Seaborn simplifies the process of generating visually appealing statistical plots, including heatmaps, violin plots, and regression plots, making it easier to analyze relationships between variables.",
+        "By mastering data visualization techniques, learners can present findings in a visually compelling manner, making complex data easier to understand and facilitating better decision-making in both research and business applications.",
+        "Lesson 3.2: Introduction to Descriptive and Inferential Statistics",
+        "Statistical analysis is a fundamental aspect of data science, providing the mathematical foundation for drawing conclusions from data. Descriptive statistics, which include measures of central tendency, dispersion, and correlation, help summarize and describe the distribution of a dataset effectively.",
+        "Inferential statistics enable analysts to make predictions and test hypotheses using probability distributions, confidence intervals, and statistical significance tests. Techniques such as t-tests, chi-square tests, and ANOVA help assess differences between groups and determine relationships between variables.",
+        "Understanding both descriptive and inferential statistics empowers learners to interpret data accurately, validate assumptions, and make informed decisions based on statistical evidence, enhancing their ability to perform data-driven research and analysis.",
+        "Module 4: Machine Learning Fundamentals and Model Evaluation",
+        "Lesson 4.1: Introduction to Machine Learning with Python",
+        "Machine learning is a crucial discipline within data science, enabling computers to learn from data and make predictions without being explicitly programmed. Python’s scikit-learn library provides a comprehensive suite of machine learning tools, making it easier to implement, train, and evaluate models.",
+        "Supervised learning techniques such as linear regression, decision trees, and support vector machines allow models to make predictions based on labeled datasets, while unsupervised learning methods, including clustering and dimensionality reduction, help uncover patterns in unlabeled data. Understanding model training, overfitting prevention, and hyperparameter tuning is essential for building effective machine learning solutions.",
+        "By mastering the fundamentals of machine learning with Python, learners can develop predictive models, assess performance, and optimize algorithms, equipping them with the skills needed to apply AI-driven solutions in data science projects.",
+        "Lesson 4.2: Feature Engineering and Model Evaluation Techniques",
+        "Feature engineering is the process of selecting, transforming, and creating features that improve a machine learning model’s performance. Techniques such as one-hot encoding, normalization, feature scaling, and dimensionality reduction help enhance model accuracy and computational efficiency.",
+        "Evaluating machine learning models involves assessing performance using metrics such as accuracy, precision, recall, and F1-score for classification tasks, while metrics like mean squared error (MSE) and R-squared are used for regression models. Cross-validation methods, including k-fold validation, ensure that models generalize well to new data and are not overfitting to training datasets.",
+        "Developing expertise in feature engineering and model evaluation enables learners to refine their machine learning pipelines, optimize predictive performance, and build robust models that can be deployed in real-world applications across various industries.",
+        "Final Project: Building a Data Science Pipeline",
+        "In the final project, learners will apply all the skills acquired throughout the course to develop a complete data science pipeline, covering data preprocessing, exploration, visualization, feature engineering, and machine learning model development.",
+        "Using a real-world dataset, learners will perform in-depth analysis, generate meaningful visualizations, and build a predictive model while optimizing its performance through hyperparameter tuning and validation techniques. Additionally, they will document findings, interpret results, and present insights effectively.",
+        "Completing this project will allow learners to demonstrate their ability to handle end-to-end data science workflows, preparing them for real-world applications in data-driven decision-making, predictive modeling, and business intelligence."
+      ]
+    },
+    {
+      "id": "5",
+      "name": "React.js for Beginners",
+      "description": "Learn to build modern web apps with React.",
+      "level": "Beginner",
+      "duration": "1 Week",
+      "image": "course5.jpg",
+      "contents": [
+        "This course provides an in-depth introduction to React.js, a powerful JavaScript library used for building modern and dynamic web applications. Designed for beginners, this course covers essential concepts such as React components, props and state management, event handling, lifecycle methods, hooks, and routing. By the end of this course, learners will have a strong foundation in React and will be able to create interactive, scalable, and maintainable applications using best practices and industry-standard techniques.",
+        "Module 1: Understanding the Basics of React.js",
+        "Lesson 1.1: Introduction to React.js and Its Core Principles",
+        "React.js is an open-source JavaScript library developed by Facebook that allows developers to build user interfaces using a component-based architecture. Unlike traditional approaches where the entire page reloads upon user interaction, React utilizes a virtual DOM that optimizes rendering, leading to faster and more efficient updates. React's declarative approach simplifies UI development, making it easier to design and manage complex applications with reusable components.",
+        "Understanding React's key principles, such as unidirectional data flow and component-based design, helps developers create structured and maintainable code. With its strong community support and wide adoption across industries, React has become one of the most popular frameworks for frontend development.",
+        "By learning React.js, developers gain the ability to build responsive and dynamic web applications that provide a seamless user experience across different devices and platforms.",
+        "Lesson 1.2: Setting Up a React Development Environment",
+        "Before developing applications in React, it is crucial to set up the right development environment to ensure a smooth workflow. The first step involves installing Node.js and npm (Node Package Manager), which allows developers to manage dependencies and run React applications efficiently. The create-react-app CLI tool simplifies project initialization by generating a pre-configured React application with essential dependencies.",
+        "Setting up a code editor like Visual Studio Code with React-specific extensions enhances the development experience by providing syntax highlighting, auto-completion, and debugging tools. Additionally, using Git for version control helps track changes and collaborate with other developers effectively.",
+        "By configuring a well-structured development environment, learners can focus on coding without worrying about setup complexities, enabling them to build React applications efficiently.",
+        "Lesson 1.3: JSX and Rendering Components",
+        "JSX, or JavaScript XML, is a syntax extension that allows developers to write HTML-like code within JavaScript, making it easier to define UI components. Instead of using traditional JavaScript functions to manipulate the DOM, JSX enables a more declarative approach to structuring web applications.",
+        "React components are the building blocks of any React application, and they can be created as either functional or class-based components. These components receive inputs, known as props, and return JSX elements that define how the UI should appear. React dynamically updates the virtual DOM and efficiently renders changes without directly modifying the real DOM.",
+        "By mastering JSX and component rendering, developers can create dynamic and interactive user interfaces while maintaining clean and readable code structures.",
+        "Module 2: Component-Based Architecture in React",
+        "Lesson 2.1: Understanding React Components and Props",
+        "Components are the foundation of React applications, allowing developers to break down complex UIs into smaller, reusable building blocks. Functional components are lightweight and mainly responsible for presenting UI elements, while class components include additional features such as state and lifecycle methods.",
+        "Props (short for properties) enable data to be passed between components, ensuring that the application remains modular and maintainable. By using props effectively, developers can create flexible and dynamic interfaces that respond to user interactions and external data sources.",
+        "Understanding the role of components and props in React development is essential for building scalable applications that are easy to manage and extend over time.",
+        "Lesson 2.2: State Management and Handling Events",
+        "State is a crucial concept in React that allows components to store and manage dynamic data internally. Unlike props, which are passed down from parent components, state is maintained within a component and can be updated using the useState hook in functional components or the setState method in class components.",
+        "Event handling in React is based on synthetic events, which ensure consistent behavior across different browsers. Common event handlers include onClick, onChange, and onSubmit, which allow developers to capture user input and update the application state accordingly.",
+        "By effectively managing state and handling events, developers can create interactive and responsive applications that provide a seamless user experience.",
+        "Lesson 2.3: Conditional Rendering and List Rendering",
+        "Conditional rendering in React allows components to display different content based on specific conditions. Using JavaScript expressions such as the ternary operator or logical && operator within JSX, developers can dynamically control what gets displayed on the screen.",
+        "List rendering is essential when dealing with dynamic data, such as displaying a list of items retrieved from an API. The map function is commonly used to iterate over arrays and generate React elements dynamically, with each item requiring a unique key prop for efficient rendering.",
+        "By mastering conditional and list rendering techniques, developers can build applications that display dynamic content efficiently, improving user engagement and interactivity.",
+        "Module 3: React Hooks and Lifecycle Methods",
+        "Lesson 3.1: Understanding React Hooks and the useState Hook",
+        "React Hooks revolutionized state management in functional components by eliminating the need for class components. The useState hook allows developers to add state functionality to functional components, making state updates more concise and readable.",
+        "With the useState hook, developers can initialize state variables, update their values using setter functions, and trigger re-renders whenever the state changes. This approach simplifies state management and enhances code maintainability.",
+        "By learning how to use hooks, developers can create more efficient and modular React components that align with modern best practices.",
+        "Lesson 3.2: The useEffect Hook and Component Lifecycle",
+        "The useEffect hook enables developers to handle side effects, such as fetching data from APIs, updating the document title, or subscribing to events. It replaces lifecycle methods like componentDidMount, componentDidUpdate, and componentWillUnmount in class components.",
+        "By specifying dependencies in the useEffect hook, developers can control when the effect runs, ensuring optimized performance and avoiding unnecessary re-executions. Cleanup functions within useEffect help prevent memory leaks and maintain application stability.",
+        "Understanding the useEffect hook is crucial for managing side effects efficiently and ensuring smooth application behavior.",
+        "Module 4: React Routing and Application Deployment",
+        "Lesson 4.1: Implementing Navigation with React Router",
+        "React Router is a popular library that enables client-side navigation in React applications, allowing users to move between different pages without requiring a full-page reload. The BrowserRouter, Route, and Link components help define routes and manage navigation efficiently.",
+        "By setting up route parameters and dynamic routing, developers can create personalized user experiences where content changes based on URL parameters or user interactions. Protected routes and authentication handling further enhance application security and user management.",
+        "By integrating React Router, developers can build single-page applications (SPAs) that provide seamless navigation and improved performance.",
+        "Lesson 4.2: Deploying a React Application",
+        "Once a React application is complete, deploying it to a live server ensures accessibility for users worldwide. Deployment options include platforms like Netlify, Vercel, and GitHub Pages, which offer straightforward hosting solutions with automatic updates.",
+        "Before deployment, optimizing the application by minifying JavaScript, enabling lazy loading, and using a content delivery network (CDN) improves performance and reduces load times. Configuring environment variables and handling API endpoints securely ensures a smooth deployment process.",
+        "By learning the deployment process, developers can make their React applications publicly accessible and maintain them efficiently in a production environment.",
+        "Final Project: Building a Complete React Application",
+        "In this final project, learners will apply all the concepts covered in the course by building a fully functional React application from scratch. The project will involve designing and developing a modern web application with dynamic components, state management, API integration, and client-side routing. Learners will start by planning the application structure, breaking it down into reusable components, and implementing interactive features using React hooks and event handlers.",
+        "The project will include creating a responsive navigation bar using React Router to allow seamless transitions between pages. Learners will fetch and display real-time data from an external API, demonstrating how to integrate backend services with frontend applications. State management will be handled using the useState and useEffect hooks, ensuring efficient updates and reactivity.",
+        "To enhance user experience, learners will implement form validation for user input, enabling interactive and dynamic content rendering. The final step will involve optimizing and deploying the application to a hosting platform such as Netlify or Vercel, making it publicly accessible. By completing this project, learners will gain practical experience in developing real-world React applications, strengthening their skills and preparing them for professional development."
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Node.js & Express",
+      "description": "Backend development using Node.js and Express.",
+      "level": "Intermediate",
+      "duration": "2 Weeks",
+      "image": "course6.jpg",
+      "contents": [
+        "This course provides an in-depth understanding of backend development using Node.js and Express, enabling learners to build scalable and efficient server-side applications. Covering essential concepts such as asynchronous JavaScript, middleware, routing, RESTful APIs, database integration, authentication, and deployment, this course equips learners with the skills required to develop robust backend systems. By the end of this course, learners will have a solid grasp of Node.js and Express, enabling them to create dynamic and interactive web applications with a well-structured backend.",
+        "Module 1: Introduction to Node.js and Express",
+        "Lesson 1.1: Understanding Node.js and Its Role in Web Development",
+        "Node.js is a powerful runtime environment that allows developers to execute JavaScript code outside the browser, making it suitable for server-side development. Unlike traditional server-side technologies, Node.js operates on a non-blocking, event-driven architecture, enabling high scalability and efficiency. It uses the V8 JavaScript engine to execute code at lightning speed, making it ideal for building real-time applications such as chat platforms and streaming services.",
+        "Lesson 1.2: Setting Up a Node.js Development Environment",
+        "To begin developing with Node.js, it is essential to set up the development environment correctly. This includes installing Node.js and npm (Node Package Manager), understanding package management, and creating a basic project structure using npm init. Additionally, learners will explore the Node.js REPL (Read-Eval-Print Loop) and execute JavaScript code in a terminal environment to familiarize themselves with Node's runtime behavior.",
+        "Lesson 1.3: Introduction to Express and Its Features",
+        "Express.js is a minimalist and flexible web framework for Node.js, simplifying the process of building web applications and APIs. It provides an intuitive way to handle HTTP requests, define routes, and implement middleware. Express eliminates the complexities of manually managing server-side logic, allowing developers to focus on application functionality. Learners will set up a basic Express server and understand how it handles incoming requests and responses.",
+        "Module 2: Building RESTful APIs with Express",
+        "Lesson 2.1: Understanding Routing in Express",
+        "Routing is a core feature of Express that enables developers to define how applications handle different HTTP methods such as GET, POST, PUT, and DELETE. By structuring routes efficiently, developers can create modular and scalable web applications. This lesson explores how to define routes, use route parameters, and implement dynamic endpoints to handle user requests effectively.",
+        "Lesson 2.2: Middleware and Request Processing",
+        "Middleware functions in Express allow developers to modify request and response objects before they reach the final route handler. Middleware is used for logging, authentication, error handling, and request validation. This lesson covers different types of middleware, including built-in, third-party, and custom middleware, demonstrating how they enhance the functionality of an Express application.",
+        "Lesson 2.3: Creating and Testing RESTful APIs",
+        "RESTful APIs enable web applications to communicate with backend servers using structured HTTP requests. In this lesson, learners will create a RESTful API with Express, handling CRUD (Create, Read, Update, Delete) operations. Tools such as Postman will be introduced to test API endpoints, ensuring proper request handling and response generation.",
+        "Module 3: Database Integration and Authentication",
+        "Lesson 3.1: Connecting Node.js with Databases (MongoDB & SQL)",
+        "Databases play a crucial role in web applications, storing and retrieving data efficiently. This lesson explores how to integrate Node.js with both SQL (MySQL, PostgreSQL) and NoSQL (MongoDB) databases. Learners will use libraries like Mongoose for MongoDB and Sequelize for SQL databases to interact with data programmatically.",
+        "Lesson 3.2: User Authentication and Security",
+        "Authentication is an essential aspect of web applications, ensuring that only authorized users can access certain features. This lesson covers user authentication using JWT (JSON Web Token) and session-based authentication strategies. Learners will implement secure login and registration systems, including password hashing using bcrypt and authentication middleware.",
+        "Lesson 3.3: Error Handling and Debugging in Express",
+        "Effective error handling improves application stability and user experience. This lesson covers error handling strategies in Express, including custom error handlers and status codes. Learners will also explore debugging techniques using tools like the Node.js Debugger and logging libraries such as Winston to track errors efficiently.",
+        "Module 4: Deployment and Real-World Applications",
+        "Lesson 4.1: Deploying Node.js Applications to Production",
+        "Deploying a Node.js application involves setting up a production environment, configuring a web server, and optimizing performance. This lesson covers deploying Express applications to platforms like Heroku, Vercel, and DigitalOcean. Learners will explore process managers such as PM2 for maintaining uptime and performance monitoring.",
+        "Lesson 4.2: Implementing Real-Time Features with WebSockets",
+        "WebSockets enable real-time communication between clients and servers, making them ideal for chat applications, live notifications, and collaborative tools. This lesson introduces Socket.io, a popular library for implementing WebSocket communication in Node.js applications. Learners will build a real-time messaging feature using WebSockets.",
+        "Lesson 4.3: Caching and Performance Optimization",
+        "Optimizing backend performance ensures a seamless user experience. This lesson covers caching techniques using Redis to reduce database queries, as well as best practices for improving API response times. Learners will also explore asynchronous processing using worker threads and queues to handle background tasks efficiently.",
+        "Final Project: Building a Full-Stack Web Application with Node.js and Express",
+        "In the final project, learners will develop a fully functional full-stack web application that integrates all concepts learned throughout the course. The project will involve creating a RESTful API using Express, connecting it to a database, implementing user authentication, and deploying the application to a production environment.",
+        "The project will begin with designing the application structure, defining API endpoints, and setting up authentication mechanisms. Learners will create a user registration and login system using JWT-based authentication, ensuring secure access to protected routes. Database integration will be handled using MongoDB or SQL, enabling users to store and retrieve information dynamically.",
+        "To enhance real-time interactivity, learners will implement WebSocket-based features such as live notifications or chat functionality. Middleware will be used for logging, request validation, and error handling, ensuring a smooth backend workflow. Finally, learners will optimize their application for performance, deploy it to a cloud hosting service, and configure a custom domain if desired.",
+        "By completing this project, learners will gain hands-on experience in building production-ready backend systems using Node.js and Express, preparing them for real-world development roles."
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Full-Stack Development",
+      "description": "Complete guide to full-stack web development.",
+      "level": "Advanced",
+      "duration": "2 Weeks",
+      "image": "course7.jpg",
+      "contents": [
+        "This course provides an advanced and comprehensive guide to full-stack web development, covering frontend, backend, database management, and deployment. By the end of this course, learners will have the expertise to build, optimize, and deploy full-stack web applications using modern technologies, frameworks, and best practices. Key topics include frontend development with React.js, backend development with Node.js and Express, database integration with MongoDB and SQL, authentication and security, API development, and deployment strategies.",
+        "Module 1: Frontend Development with Modern Frameworks",
+        "Lesson 1.1: Advanced HTML, CSS, and JavaScript for Frontend",
+        "A strong foundation in HTML, CSS, and JavaScript is essential for full-stack development. This lesson covers advanced topics such as CSS Grid and Flexbox for responsive layouts, JavaScript ES6+ features, and performance optimizations for frontend applications. Learners will also explore accessibility best practices and browser compatibility strategies.",
+        "Lesson 1.2: Building Interactive User Interfaces with React.js",
+        "React.js is one of the most popular frontend frameworks for building dynamic and scalable web applications. This lesson introduces React concepts such as components, props, state management, and the virtual DOM. Learners will create a React-based user interface and explore component-based architecture.",
+        "Lesson 1.3: State Management and Routing in React",
+        "State management is crucial for handling complex application logic. This lesson covers state management techniques using React Context API and Redux. Additionally, learners will implement client-side routing using React Router to manage multiple views within the application seamlessly.",
+        "Module 2: Backend Development and API Creation",
+        "Lesson 2.1: Introduction to Backend Development with Node.js and Express",
+        "The backend handles data processing, authentication, and server logic. This lesson introduces Node.js and Express, explaining how to set up a backend server, define routes, and handle HTTP requests. Learners will also explore middleware and RESTful API design principles.",
+        "Lesson 2.2: Building Secure and Scalable REST APIs",
+        "Creating secure and scalable APIs is essential for full-stack applications. This lesson covers API authentication using JWT, data validation with middleware, error handling, and implementing best practices for REST API development. Learners will build a real-world API for handling user authentication and data retrieval.",
+        "Lesson 2.3: Implementing Authentication and Authorization",
+        "Authentication ensures secure access to protected resources. This lesson explores authentication methods, including session-based authentication and token-based authentication (JWT). Role-based access control (RBAC) will be implemented to restrict access based on user roles.",
+        "Module 3: Database Management and Server-Side Integration",
+        "Lesson 3.1: Database Design and Integration (SQL & NoSQL)",
+        "Efficient database design is crucial for full-stack applications. This lesson covers relational databases (MySQL, PostgreSQL) and NoSQL databases (MongoDB), explaining how to structure, store, and query data efficiently. Learners will use Sequelize (SQL) and Mongoose (MongoDB) to interact with databases.",
+        "Lesson 3.2: CRUD Operations and Data Persistence",
+        "Full-stack applications require seamless data management. This lesson teaches how to perform Create, Read, Update, and Delete (CRUD) operations using an Express backend connected to a database. Learners will implement data persistence techniques to store user-generated content.",
+        "Lesson 3.3: Optimizing Performance with Caching and Indexing",
+        "Optimizing database performance improves application scalability. This lesson covers caching techniques using Redis, database indexing strategies, and query optimization to enhance response times and reduce server load.",
+        "Module 4: Deployment and Full-Stack Application Optimization",
+        "Lesson 4.1: Deploying Full-Stack Applications to the Cloud",
+        "Deployment is the final step in full-stack development. This lesson covers deploying frontend and backend applications to cloud services like AWS, Vercel, and Heroku. Learners will configure CI/CD pipelines for automated deployment and implement environment variables for secure API management.",
+        "Lesson 4.2: Implementing WebSockets for Real-Time Features",
+        "Real-time features enhance user experience. This lesson introduces WebSockets and Socket.io, enabling developers to implement real-time chat, notifications, and live updates in full-stack applications.",
+        "Lesson 4.3: Performance Optimization and Security Best Practices",
+        "Optimizing web applications ensures fast load times and security. This lesson covers frontend and backend performance enhancements, implementing security best practices to prevent SQL injection, XSS, and CSRF attacks, and using HTTPS and secure cookies.",
+        "Final Project: Building a Scalable Full-Stack Web Application",
+        "In the final project, learners will develop a complete full-stack web application incorporating frontend, backend, database, authentication, and deployment strategies. This project will require designing a feature-rich web app with user authentication, role-based access, and real-time capabilities.",
+        "Learners will begin by structuring the project, setting up the backend with Express.js, creating a REST API, and integrating it with a database. Next, the frontend will be developed using React.js, implementing dynamic UI elements, state management, and client-side routing. Authentication and authorization will be added to ensure secure access.",
+        "To enhance the project, real-time features such as notifications or chat functionality will be implemented using WebSockets. Finally, learners will optimize their application for performance, deploy it to a cloud hosting service, and configure environment variables for production settings.",
+        "By completing this project, learners will gain hands-on experience in full-stack development, equipping them with the skills needed to build and deploy professional-grade web applications."
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Cybersecurity Fundamentals",
+      "description": "Learn the basics of cybersecurity.",
+      "level": "Beginner",
+      "duration": "Less Than 2 Hours",
+      "image": "course8.jpg",
+      "contents": [
+        "This course provides a beginner-friendly introduction to cybersecurity, covering essential concepts, common threats, security best practices, and fundamental techniques to protect digital assets. By the end of this course, learners will understand the importance of cybersecurity, recognize various cyber threats, implement security measures, and gain hands-on experience in securing systems and networks against potential attacks.",
+        "Module 1: Introduction to Cybersecurity and Threats",
+        "Lesson 1.1: Understanding Cybersecurity and Its Importance",
+        "Cybersecurity is the practice of protecting systems, networks, and data from cyber threats, ensuring confidentiality, integrity, and availability of information. With increasing cyberattacks, individuals and organizations must implement security measures to safeguard sensitive data and prevent unauthorized access. This lesson explores the significance of cybersecurity in personal and professional settings.",
+        "Lesson 1.2: Common Cyber Threats and Attack Vectors",
+        "Cyber threats come in many forms, including malware, phishing, ransomware, denial-of-service (DoS) attacks, and social engineering tactics. Understanding these attack vectors helps individuals and organizations recognize vulnerabilities and strengthen their security posture. Learners will explore real-world examples of cyber threats and their impact.",
+        "Lesson 1.3: The Role of Ethical Hacking in Cybersecurity",
+        "Ethical hacking involves legally testing systems to identify security weaknesses before attackers can exploit them. This lesson introduces ethical hacking principles, penetration testing methodologies, and the role of white-hat hackers in improving cybersecurity resilience.",
+        "Module 2: Securing Networks and Systems",
+        "Lesson 2.1: Fundamentals of Network Security",
+        "Network security involves protecting data transmission and network infrastructure from unauthorized access and attacks. This lesson covers essential network security concepts such as firewalls, intrusion detection systems (IDS), virtual private networks (VPNs), and secure network configurations.",
+        "Lesson 2.2: Operating System Security Best Practices",
+        "Securing operating systems is critical to protecting personal and business devices. Learners will explore security settings in Windows, macOS, and Linux, implement user access controls, configure firewalls, and apply regular security updates to mitigate risks.",
+        "Lesson 2.3: Encryption and Data Protection Techniques",
+        "Encryption is a crucial method for securing sensitive information. This lesson explains symmetric and asymmetric encryption, hashing techniques, and secure communication protocols such as SSL/TLS. Learners will explore how encryption safeguards data privacy and prevents unauthorized access.",
+        "Module 3: Cybersecurity Best Practices and Incident Response",
+        "Lesson 3.1: Implementing Strong Authentication and Access Controls",
+        "Authentication and access control mechanisms prevent unauthorized users from accessing systems and data. This lesson covers multi-factor authentication (MFA), role-based access control (RBAC), and password management best practices to enhance security.",
+        "Lesson 3.2: Security Awareness and Social Engineering Prevention",
+        "Human error is one of the biggest cybersecurity risks. This lesson teaches learners how to recognize phishing attempts, avoid social engineering scams, and develop a security-first mindset through cybersecurity awareness training.",
+        "Lesson 3.3: Incident Response and Cybersecurity Policies",
+        "Incident response planning ensures organizations can quickly detect, respond to, and recover from cyber incidents. This lesson introduces the cybersecurity incident response lifecycle, log analysis, and regulatory compliance requirements such as GDPR and HIPAA.",
+        "Module 4: Practical Cybersecurity Applications and Future Trends",
+        "Lesson 4.1: Securing Web Applications and APIs",
+        "Web applications and APIs are common attack targets. This lesson explores common vulnerabilities, including SQL injection, cross-site scripting (XSS), and insecure API endpoints. Learners will implement secure coding practices to mitigate risks.",
+        "Lesson 4.2: Ethical Hacking and Penetration Testing Fundamentals",
+        "Penetration testing involves simulating cyberattacks to identify security weaknesses. This lesson introduces penetration testing methodologies, common hacking tools, and how ethical hackers help strengthen cybersecurity defenses.",
+        "Lesson 4.3: Emerging Trends in Cybersecurity",
+        "Cybersecurity is an evolving field with new threats and technologies. This lesson explores artificial intelligence in cybersecurity, blockchain for security, zero-trust architecture, and career opportunities in the cybersecurity industry.",
+        "Final Project: Cybersecurity Risk Assessment and Mitigation Plan",
+        "In the final project, learners will apply their knowledge to conduct a cybersecurity risk assessment and develop a mitigation plan for a given scenario. This project will involve identifying vulnerabilities, analyzing potential threats, and recommending security controls to enhance protection.",
+        "Learners will assess a simulated business or personal system, evaluate security risks, and propose countermeasures, including network security improvements, authentication methods, and encryption techniques. They will document their findings in a detailed cybersecurity report.",
+        "By completing this project, learners will gain hands-on experience in cybersecurity analysis, risk mitigation strategies, and security implementation, preparing them for real-world cybersecurity challenges and roles."
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Cloud Computing",
+      "description": "Introduction to cloud services and deployment.",
+      "level": "Intermediate",
+      "duration": "2 Weeks",
+      "image": "course9.jpg",
+      "contents": [
+        "This course provides an in-depth introduction to cloud computing, covering core cloud services, deployment models, and best practices for leveraging cloud technologies. By the end of this course, learners will develop a strong understanding of cloud infrastructure, virtualization, storage solutions, security considerations, and cost optimization strategies, enabling them to design and deploy scalable cloud applications.",
+        "Module 1: Fundamentals of Cloud Computing",
+        "Lesson 1.1: Understanding Cloud Computing and Its Benefits",
+        "Cloud computing is a technology that enables on-demand access to computing resources over the internet, eliminating the need for physical infrastructure. It provides scalability, flexibility, and cost-efficiency, allowing businesses and individuals to store, process, and manage data securely in cloud environments. This lesson explores the key benefits and essential characteristics of cloud computing.",
+        "Lesson 1.2: Cloud Service Models (IaaS, PaaS, SaaS)",
+        "Cloud services are categorized into Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS), each serving different computing needs. IaaS provides virtualized infrastructure, PaaS offers a development environment, and SaaS delivers fully managed applications. Understanding these models helps organizations select the right cloud solutions for their requirements.",
+        "Lesson 1.3: Cloud Deployment Models (Public, Private, Hybrid, Multi-Cloud)",
+        "Cloud deployment models define how cloud resources are managed and accessed. Public clouds provide cost-effective scalability, private clouds offer dedicated security and control, hybrid clouds combine both advantages, and multi-cloud strategies leverage multiple providers for redundancy and performance. This lesson explores the use cases and benefits of each model.",
+        "Module 2: Core Cloud Computing Technologies",
+        "Lesson 2.1: Virtualization and Cloud Infrastructure",
+        "Virtualization enables cloud computing by allowing multiple virtual machines (VMs) to run on a single physical server. This lesson covers hypervisors, virtual machines, containers, and orchestration tools such as Kubernetes, highlighting how they optimize resource utilization and enhance scalability.",
+        "Lesson 2.2: Cloud Storage Solutions and Data Management",
+        "Cloud storage services provide secure and scalable data storage solutions, supporting various formats and retrieval methods. This lesson introduces object storage (Amazon S3, Google Cloud Storage), block storage (EBS, Azure Disks), and file storage solutions, discussing their use cases and performance considerations.",
+        "Lesson 2.3: Networking in the Cloud",
+        "Networking is a critical aspect of cloud computing, ensuring secure and efficient communication between cloud resources. Learners will explore virtual private networks (VPNs), load balancers, content delivery networks (CDNs), and cloud-native networking services such as AWS VPC and Azure Virtual Network.",
+        "Module 3: Cloud Security and Compliance",
+        "Lesson 3.1: Security Best Practices in Cloud Environments",
+        "Security is a top priority in cloud computing, requiring robust identity management, encryption, and monitoring mechanisms. This lesson explores security best practices such as access controls, multi-factor authentication (MFA), and data encryption to protect cloud resources.",
+        "Lesson 3.2: Compliance and Legal Considerations in the Cloud",
+        "Cloud providers must comply with global data protection regulations such as GDPR, HIPAA, and SOC 2. This lesson discusses cloud compliance frameworks, security certifications, and legal considerations to ensure organizations meet industry standards while leveraging cloud services.",
+        "Lesson 3.3: Disaster Recovery and Business Continuity Planning",
+        "Disaster recovery (DR) strategies ensure business continuity in case of data loss or system failures. Learners will explore backup solutions, failover mechanisms, and disaster recovery planning in cloud environments to maintain high availability and reliability.",
+        "Module 4: Cloud Deployment and Cost Optimization",
+        "Lesson 4.1: Deploying Applications in the Cloud",
+        "Cloud platforms provide various deployment options, including virtual machines, serverless computing, and containerized applications. This lesson covers deployment strategies, infrastructure as code (IaC) tools such as Terraform, and DevOps practices for automated cloud deployments.",
+        "Lesson 4.2: Monitoring and Performance Optimization",
+        "Monitoring cloud applications ensures performance optimization and cost efficiency. Learners will explore cloud monitoring tools such as AWS CloudWatch, Azure Monitor, and Google Stackdriver, along with strategies for optimizing resource usage and minimizing cloud expenses.",
+        "Lesson 4.3: Future Trends in Cloud Computing",
+        "Cloud computing continues to evolve with advancements such as edge computing, artificial intelligence integration, and quantum computing. This lesson explores emerging trends, serverless architectures, and multi-cloud strategies shaping the future of cloud technology.",
+        "Final Project: Deploying a Scalable Cloud-Based Application",
+        "In the final project, learners will apply their knowledge to design and deploy a cloud-based application, implementing best practices in cloud infrastructure, security, and cost management.",
+        "Learners will set up a cloud environment, configure storage and networking, deploy an application using IaaS or PaaS services, and implement monitoring and security controls. They will document their deployment process and performance optimizations in a detailed report.",
+        "By completing this project, learners will gain hands-on experience in cloud computing, demonstrating their ability to design scalable and secure cloud-based solutions for real-world applications."
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Blockchain Essentials",
+      "description": "Learn the fundamentals of blockchain technology.",
+      "level": "Advanced",
+      "duration": "1 Month",
+      "image": "course10.jpg",
+      "contents": [
+        "This course provides a comprehensive introduction to blockchain technology, covering its fundamental principles, cryptographic mechanisms, consensus protocols, smart contracts, and decentralized applications (DApps). By the end of this course, learners will develop a deep understanding of blockchain architecture, explore real-world use cases, and gain hands-on experience in building and deploying blockchain-based solutions, equipping them with the skills needed to innovate in decentralized systems.",
+        "Module 1: Foundations of Blockchain Technology",
+        "Lesson 1.1: Understanding Blockchain and Its Core Principles",
+        "Blockchain is a distributed ledger technology that enables secure, transparent, and tamper-resistant transactions without the need for intermediaries. By leveraging cryptographic hashing, decentralization, and consensus mechanisms, blockchain ensures data integrity and trust in various applications, from financial transactions to supply chain management. This lesson explores the fundamental properties that define blockchain technology.",
+        "Lesson 1.2: Cryptography and Hashing in Blockchain",
+        "Cryptographic techniques such as hash functions, public-key cryptography, and digital signatures play a crucial role in ensuring data security and authenticity in blockchain networks. Learners will explore how cryptographic hashing secures transaction records, the role of asymmetric encryption in identity verification, and the importance of digital signatures in blockchain-based authentication.",
+        "Lesson 1.3: Blockchain Consensus Mechanisms",
+        "Consensus mechanisms allow decentralized networks to validate transactions and maintain a secure ledger without central authority. This lesson introduces key consensus protocols, including Proof of Work (PoW), Proof of Stake (PoS), Delegated Proof of Stake (DPoS), and Practical Byzantine Fault Tolerance (PBFT), explaining their advantages, limitations, and real-world implementations.",
+        "Module 2: Smart Contracts and Decentralized Applications",
+        "Lesson 2.1: Introduction to Smart Contracts",
+        "Smart contracts are self-executing programs that automate and enforce agreements on the blockchain. This lesson explores the structure of smart contracts, how they eliminate intermediaries, and their applications in various industries, including finance, healthcare, and real estate. Learners will examine Ethereum’s smart contract functionality using Solidity programming.",
+        "Lesson 2.2: Building and Deploying Smart Contracts",
+        "Using Solidity, learners will write and deploy their first smart contract on the Ethereum blockchain. Topics include contract structure, functions, modifiers, and events. This lesson also covers the development environment setup using tools like Remix, Truffle, and Hardhat for testing and deploying smart contracts.",
+        "Lesson 2.3: Introduction to Decentralized Applications (DApps)",
+        "Decentralized applications (DApps) leverage blockchain technology to provide transparent, secure, and censorship-resistant services. This lesson explores the architecture of DApps, the role of front-end and back-end components, and how blockchain-powered applications interact with smart contracts using Web3.js and Ethers.js.",
+        "Module 3: Blockchain Networks and Use Cases",
+        "Lesson 3.1: Public, Private, and Consortium Blockchains",
+        "Blockchain networks are classified into public, private, and consortium models, each catering to different use cases. Public blockchains like Bitcoin and Ethereum are open to all users, private blockchains provide restricted access for enterprises, and consortium blockchains involve multiple organizations working collaboratively. This lesson examines their characteristics and industry applications.",
+        "Lesson 3.2: Blockchain Applications Across Industries",
+        "Blockchain technology is transforming industries by enhancing security, transparency, and efficiency. Learners will explore real-world blockchain applications in finance (cryptocurrencies and DeFi), supply chain (provenance tracking), healthcare (secure medical records), and governance (voting systems), analyzing how blockchain enhances operational trust and accountability.",
+        "Lesson 3.3: Scalability and Challenges in Blockchain Adoption",
+        "Scalability remains a major challenge in blockchain adoption due to network congestion and transaction speed limitations. This lesson explores layer-2 scaling solutions such as Lightning Network and Plasma, sidechains, and sharding techniques. Additionally, it discusses regulatory challenges, energy consumption concerns, and strategies for mainstream adoption of blockchain technology.",
+        "Module 4: Advanced Blockchain Concepts and Future Trends",
+        "Lesson 4.1: Tokenization and Non-Fungible Tokens (NFTs)",
+        "Tokenization is the process of representing real-world assets as digital tokens on the blockchain. This lesson covers the concept of fungible tokens (ERC-20) and non-fungible tokens (ERC-721, ERC-1155), their applications in gaming, art, real estate, and digital ownership, and the role of marketplaces like OpenSea in NFT trading.",
+        "Lesson 4.2: Decentralized Finance (DeFi) and Smart Contract Security",
+        "Decentralized Finance (DeFi) leverages blockchain to offer financial services without traditional intermediaries. This lesson explores DeFi protocols such as lending platforms, decentralized exchanges (DEXs), and yield farming. Additionally, it highlights smart contract security risks, including reentrancy attacks, front-running, and best practices for secure contract development.",
+        "Lesson 4.3: The Future of Blockchain and Emerging Innovations",
+        "Blockchain is continuously evolving with innovations such as multi-chain interoperability, quantum-resistant cryptography, and Web3 integration. This lesson discusses the potential of next-generation blockchain technologies, including Polkadot, Cosmos, and zero-knowledge proofs (ZKPs), highlighting their impact on decentralization and privacy.",
+        "Final Project: Developing a Blockchain-Based Application",
+        "In the final project, learners will apply their blockchain knowledge to develop a decentralized application (DApp) or a smart contract-based solution that addresses a real-world problem.",
+        "Learners will design, implement, and deploy a blockchain-based project using Ethereum or another blockchain platform, ensuring proper smart contract security, decentralized interactions, and transaction management. The project will include a report on the design, execution, challenges faced, and solutions implemented.",
+        "By completing this project, learners will gain hands-on experience in blockchain development, demonstrating their ability to build secure and scalable decentralized solutions for real-world applications."
+      ]
+    },
+    {
+      "id": "11",
+      "name": "DevOps and CI/CD",
+      "description": "Learn DevOps practices and CI/CD automation.",
+      "level": "Intermediate",
+      "duration": "1 Week",
+      "image": "course11.jpg",
+      "contents": [
+        "This course provides an in-depth understanding of DevOps principles, continuous integration and continuous deployment (CI/CD) automation, infrastructure as code (IaC), monitoring, and security best practices. By the end of this course, learners will develop expertise in streamlining software development workflows, automating deployments, and managing scalable cloud infrastructure, preparing them to implement DevOps methodologies in real-world projects.",
+        "Module 1: Introduction to DevOps and CI/CD",
+        "Lesson 1.1: Understanding DevOps Principles and Culture",
+        "DevOps is a software development approach that integrates development and operations to enhance collaboration, speed up deployments, and improve software quality. This lesson covers DevOps core principles, including automation, continuous feedback, and shared responsibility. It also explores how DevOps culture improves agility, reliability, and efficiency in software development.",
+        "Lesson 1.2: Introduction to Continuous Integration and Continuous Deployment (CI/CD)",
+        "CI/CD is a crucial component of DevOps, enabling teams to automate code integration, testing, and deployment. This lesson explains the CI/CD pipeline stages, including version control, automated testing, artifact management, and deployment strategies. Learners will understand how CI/CD reduces manual effort and accelerates software delivery.",
+        "Lesson 1.3: Version Control and Git Best Practices",
+        "Version control is a foundational aspect of DevOps that enables teams to track code changes and collaborate efficiently. This lesson covers Git fundamentals, branching strategies (Git Flow, GitHub Flow), and best practices for managing repositories using GitHub, GitLab, and Bitbucket.",
+        "Module 2: Infrastructure as Code (IaC) and Automation",
+        "Lesson 2.1: Configuration Management with Ansible and Chef",
+        "Configuration management tools like Ansible and Chef automate server setup, application deployment, and infrastructure provisioning. This lesson explores how to use Ansible playbooks and Chef cookbooks to manage environments, ensuring consistency and scalability across infrastructure.",
+        "Lesson 2.2: Infrastructure as Code (IaC) with Terraform",
+        "Terraform enables infrastructure provisioning through declarative configuration files. This lesson introduces Terraform syntax, providers (AWS, Azure, GCP), state management, and best practices for writing reusable and modular infrastructure code.",
+        "Lesson 2.3: Containerization with Docker and Kubernetes",
+        "Containers allow applications to run consistently across environments. This lesson covers Docker fundamentals, including containerization, Docker Compose, and best practices for creating lightweight, scalable applications. Additionally, learners will explore Kubernetes for orchestrating containerized workloads and managing deployments at scale.",
+        "Module 3: CI/CD Pipeline Implementation",
+        "Lesson 3.1: Setting Up a CI/CD Pipeline with Jenkins",
+        "Jenkins is a popular CI/CD automation tool that streamlines build, test, and deployment processes. This lesson covers Jenkins installation, pipeline scripting, integration with version control, and automated deployment workflows.",
+        "Lesson 3.2: CI/CD Pipelines with GitHub Actions and GitLab CI/CD",
+        "Cloud-based CI/CD solutions like GitHub Actions and GitLab CI/CD enable teams to automate workflows with minimal setup. Learners will explore YAML-based pipeline configuration, secrets management, and multi-stage deployment strategies.",
+        "Lesson 3.3: Blue-Green Deployment and Canary Releases",
+        "Advanced deployment strategies like blue-green deployment and canary releases reduce downtime and risk during production updates. This lesson covers how to implement these strategies using Kubernetes, feature flags, and traffic routing techniques.",
+        "Module 4: Monitoring, Security, and DevOps Best Practices",
+        "Lesson 4.1: Monitoring and Logging with Prometheus and ELK Stack",
+        "Effective monitoring ensures system reliability and performance. This lesson explores Prometheus for real-time monitoring and alerting, and the ELK (Elasticsearch, Logstash, Kibana) stack for centralized logging and visualization.",
+        "Lesson 4.2: DevSecOps – Security in DevOps",
+        "Security is a key aspect of DevOps, integrating security practices throughout the development lifecycle. This lesson covers security scanning tools (Snyk, SonarQube), secrets management, and compliance strategies for ensuring secure deployments.",
+        "Lesson 4.3: Scaling and Optimizing DevOps Workflows",
+        "Optimizing DevOps pipelines involves automating infrastructure scaling, improving test automation, and refining feedback loops. This lesson explores performance optimization techniques, cloud cost management, and best practices for scaling DevOps adoption across teams.",
+        "Final Project: Building a Complete CI/CD Pipeline with DevOps Tools",
+        "In the final project, learners will design and implement a full CI/CD pipeline using Jenkins, GitHub Actions, or GitLab CI/CD. The project will involve automating code builds, running tests, containerizing the application, and deploying it to a cloud platform (AWS, Azure, or GCP).",
+        "Learners will also incorporate monitoring with Prometheus, logging with ELK, and security scanning tools to ensure a robust DevOps pipeline. The project report will include architecture design, tool selection, challenges encountered, and optimization strategies.",
+        "By completing this project, learners will gain hands-on experience in DevOps practices, preparing them to implement scalable, automated, and secure CI/CD pipelines in production environments."
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Internet of Things (IoT)",
+      "description": "Learn how IoT devices communicate and interact.",
+      "level": "Beginner",
+      "duration": "1 Week",
+      "image": "course12.jpg",
+      "contents": [
+        "This course provides an introduction to the Internet of Things (IoT), covering key concepts, communication protocols, sensor integration, and cloud connectivity. By the end of this course, learners will develop an understanding of IoT architecture, explore real-time data collection methods, analyze security challenges, and gain hands-on experience in designing IoT-based applications for smart environments.",
+        "Module 1: Introduction to IoT and Its Architecture",
+        "Lesson 1.1: Understanding the Internet of Things (IoT) Ecosystem",
+        "The Internet of Things (IoT) is a network of interconnected devices that collect, exchange, and process data over the internet. This lesson explores the core components of IoT, including sensors, actuators, gateways, cloud platforms, and communication networks that enable seamless interaction between physical and digital systems.",
+        "Lesson 1.2: IoT Architecture and Communication Models",
+        "IoT architecture consists of multiple layers, including perception, network, and application layers, each playing a crucial role in data collection, transmission, and processing. Learners will explore communication models such as request-response, publish-subscribe, and event-driven architectures that facilitate real-time interactions between devices and cloud platforms.",
+        "Lesson 1.3: IoT Applications and Industry Use Cases",
+        "IoT is transforming industries such as healthcare, agriculture, transportation, and smart cities. This lesson highlights real-world IoT applications, including remote health monitoring, precision farming, fleet tracking, and home automation, showcasing the impact of IoT on modern technological advancements.",
+        "Module 2: IoT Hardware and Sensor Integration",
+        "Lesson 2.1: Introduction to IoT Devices and Microcontrollers",
+        "Microcontrollers like Arduino and Raspberry Pi serve as the backbone of IoT systems, enabling interaction with sensors and actuators. This lesson covers hardware specifications, GPIO (General-Purpose Input/Output) pin configuration, and device selection based on application requirements.",
+        "Lesson 2.2: Sensor Technologies and Data Acquisition",
+        "Sensors collect environmental data such as temperature, humidity, motion, and proximity. This lesson introduces analog and digital sensors, their working principles, and interfacing methods to gather real-time data for IoT applications.",
+        "Lesson 2.3: Actuators and Control Mechanisms",
+        "Actuators convert electrical signals into physical actions, such as switching on lights or adjusting motors. Learners will explore different types of actuators, including relays, servo motors, and stepper motors, and learn how to control them using microcontrollers and IoT platforms.",
+        "Module 3: IoT Communication Protocols and Cloud Connectivity",
+        "Lesson 3.1: IoT Communication Protocols – MQTT, HTTP, and CoAP",
+        "IoT devices communicate using protocols like MQTT (Message Queuing Telemetry Transport), HTTP (Hypertext Transfer Protocol), and CoAP (Constrained Application Protocol). This lesson explores the differences, use cases, and implementation of these protocols in IoT networks.",
+        "Lesson 3.2: Cloud Platforms for IoT Data Storage and Processing",
+        "Cloud platforms such as AWS IoT, Google Cloud IoT, and Microsoft Azure IoT provide scalable solutions for data storage, analytics, and device management. Learners will understand how IoT devices transmit data to cloud services and how cloud computing enhances IoT applications.",
+        "Lesson 3.3: Edge Computing and IoT Gateways",
+        "Edge computing reduces latency by processing IoT data closer to the source before sending it to the cloud. This lesson covers IoT gateways, edge devices, and their role in improving real-time decision-making in IoT ecosystems.",
+        "Module 4: IoT Security, Challenges, and Best Practices",
+        "Lesson 4.1: IoT Security Threats and Vulnerabilities",
+        "Security is a critical challenge in IoT due to the interconnected nature of devices. Learners will explore common IoT security risks such as unauthorized access, data breaches, and denial-of-service (DoS) attacks, along with methods to mitigate these threats.",
+        "Lesson 4.2: Secure Authentication and Data Encryption in IoT",
+        "Implementing authentication mechanisms and encryption techniques enhances IoT security. This lesson covers authentication protocols, secure key management, and data encryption strategies to protect IoT devices and communication channels.",
+        "Lesson 4.3: IoT Standards and Compliance Regulations",
+        "Global standards and regulations, such as GDPR (General Data Protection Regulation), ISO 27001, and NIST guidelines, govern IoT security and data privacy. Learners will explore industry best practices to ensure compliance with regulatory frameworks in IoT deployments.",
+        "Final Project: Developing a Smart IoT System with Cloud Integration",
+        "In the final project, learners will design and implement a complete IoT-based application, integrating hardware components, communication protocols, and cloud connectivity. The project will involve setting up an IoT device with sensors, collecting real-time data, processing it through an edge computing framework, and visualizing insights on a cloud platform.",
+        "Learners will also implement security measures such as data encryption, authentication, and secure communication protocols to protect IoT data. The project report will document hardware configurations, software implementation, challenges encountered, and optimization strategies.",
+        "By completing this project, learners will gain practical experience in IoT development, preparing them to build secure, scalable, and efficient IoT solutions for various industry applications."
+      ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "1",
+      "courseId": 1,
+      "name": "Web Development Basics Quiz",
+      "level": "beginner",
+      "questions": [
+        {
+          "question": "What does HTML stand for?",
+          "options": [
+            "Hyper Text Markup Language",
+            "Hyperlinks and Text Markup Language",
+            "Home Tool Markup Language"
+          ],
+          "answer": "Hyper Text Markup Language"
+        },
+        {
+          "question": "What is the purpose of CSS?",
+          "options": [
+            "Structure",
+            "Style",
+            "Logic"
+          ],
+          "answer": "Style"
+        },
+        {
+          "question": "Which language is used for web page structure?",
+          "options": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+          ],
+          "answer": "HTML"
+        },
+        {
+          "question": "What does JS stand for?",
+          "options": [
+            "Java Syntax",
+            "JavaScript",
+            "Just Style"
+          ],
+          "answer": "JavaScript"
+        },
+        {
+          "question": "Which of the following is a valid HTML tag?",
+          "options": [
+            "<html>",
+            "<body>",
+            "Both"
+          ],
+          "answer": "Both"
+        },
+        {
+          "question": "What property controls text size in CSS?",
+          "options": [
+            "font-style",
+            "font-size",
+            "text-style"
+          ],
+          "answer": "font-size"
+        },
+        {
+          "question": "Which CSS property is used for background color?",
+          "options": [
+            "bg-color",
+            "background-color",
+            "color"
+          ],
+          "answer": "background-color"
+        },
+        {
+          "question": "Which language is used for interactivity in a webpage?",
+          "options": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+          ],
+          "answer": "JavaScript"
+        },
+        {
+          "question": "What is the default display property for <div>?",
+          "options": [
+            "inline",
+            "block",
+            "flex"
+          ],
+          "answer": "block"
+        },
+        {
+          "question": "Which of these is a valid CSS selector?",
+          "options": [
+            ".class",
+            "#id",
+            "Both"
+          ],
+          "answer": "Both"
+        }
+      ],
+      "attempt": 13
+    },
+    {
+      "id": "2",
+      "courseId": 2,
+      "name": "Advanced JavaScript Quiz",
+      "level": "advanced",
+      "questions": [
+        {
+          "question": "Which keyword declares a variable in JavaScript?",
+          "options": [
+            "var",
+            "define",
+            "declare"
+          ],
+          "answer": "var"
+        },
+        {
+          "question": "What does the 'this' keyword refer to?",
+          "options": [
+            "Current function",
+            "Global object",
+            "Depends on context"
+          ],
+          "answer": "Depends on context"
+        },
+        {
+          "question": "Which function converts a string to an integer?",
+          "options": [
+            "parseInt()",
+            "parseFloat()",
+            "toFixed()"
+          ],
+          "answer": "parseInt()"
+        },
+        {
+          "question": "What is an arrow function?",
+          "options": [
+            "Function declaration",
+            "Compact function expression",
+            "Array method"
+          ],
+          "answer": "Compact function expression"
+        },
+        {
+          "question": "Which symbol is used for strict equality?",
+          "options": [
+            "==",
+            "===",
+            "!="
+          ],
+          "answer": "==="
+        },
+        {
+          "question": "Which method removes the last element from an array?",
+          "options": [
+            "pop()",
+            "shift()",
+            "slice()"
+          ],
+          "answer": "pop()"
+        },
+        {
+          "question": "Which of the following is NOT a JavaScript framework?",
+          "options": [
+            "React",
+            "Vue",
+            "Python"
+          ],
+          "answer": "Python"
+        },
+        {
+          "question": "Which JavaScript method is used to iterate over an array?",
+          "options": [
+            "forEach()",
+            "map()",
+            "Both"
+          ],
+          "answer": "Both"
+        },
+        {
+          "question": "What does JSON stand for?",
+          "options": [
+            "JavaScript Object Notation",
+            "Java Syntax Object",
+            "JavaScript Online Network"
+          ],
+          "answer": "JavaScript Object Notation"
+        },
+        {
+          "question": "Which keyword is used to define a constant?",
+          "options": [
+            "const",
+            "let",
+            "var"
+          ],
+          "answer": "const"
+        }
+      ],
+      "attempt": 4
+    },
+    {
+      "id": "3",
+      "courseId": 3,
+      "name": "Python for Data Science Quiz",
+      "level": "intermediate",
+      "questions": [
+        {
+          "question": "Which library is used for data analysis in Python?",
+          "options": [
+            "NumPy",
+            "Pandas",
+            "TensorFlow"
+          ],
+          "answer": "Pandas"
+        },
+        {
+          "question": "What data structure does Pandas primarily use?",
+          "options": [
+            "List",
+            "DataFrame",
+            "Tuple"
+          ],
+          "answer": "DataFrame"
+        },
+        {
+          "question": "Which Python library is used for numerical computing?",
+          "options": [
+            "NumPy",
+            "Seaborn",
+            "Matplotlib"
+          ],
+          "answer": "NumPy"
+        },
+        {
+          "question": "What does `df.head()` do?",
+          "options": [
+            "Displays first 5 rows",
+            "Displays last 5 rows",
+            "Deletes data"
+          ],
+          "answer": "Displays first 5 rows"
+        },
+        {
+          "question": "Which function loads a CSV file into Pandas?",
+          "options": [
+            "pd.read_csv()",
+            "pd.load_csv()",
+            "pd.import_csv()"
+          ],
+          "answer": "pd.read_csv()"
+        },
+        {
+          "question": "What does `plt.show()` do in Matplotlib?",
+          "options": [
+            "Plots a graph",
+            "Displays the graph",
+            "Saves the graph"
+          ],
+          "answer": "Displays the graph"
+        },
+        {
+          "question": "Which library is used for machine learning in Python?",
+          "options": [
+            "Scikit-learn",
+            "Django",
+            "Flask"
+          ],
+          "answer": "Scikit-learn"
+        },
+        {
+          "question": "What function calculates the mean in Pandas?",
+          "options": [
+            "mean()",
+            "avg()",
+            "sum()"
+          ],
+          "answer": "mean()"
+        },
+        {
+          "question": "Which library is used for deep learning?",
+          "options": [
+            "TensorFlow",
+            "Flask",
+            "Seaborn"
+          ],
+          "answer": "TensorFlow"
+        },
+        {
+          "question": "Which function creates a new Pandas DataFrame?",
+          "options": [
+            "pd.DataFrame()",
+            "df.create()",
+            "pd.new_df()"
+          ],
+          "answer": "pd.DataFrame()"
+        }
+      ],
+      "attempt": 2
+    },
+    {
+      "id": "4",
+      "courseId": 4,
+      "name": "Machine Learning Basics Quiz",
+      "level": "advanced",
+      "questions": [
+        {
+          "question": "What is Machine Learning?",
+          "options": [
+            "A subset of AI",
+            "A programming language",
+            "A database management system"
+          ],
+          "answer": "A subset of AI"
+        },
+        {
+          "question": "Which library is commonly used for ML in Python?",
+          "options": [
+            "TensorFlow",
+            "NumPy",
+            "Bootstrap"
+          ],
+          "answer": "TensorFlow"
+        },
+        {
+          "question": "What is supervised learning?",
+          "options": [
+            "Learning with labeled data",
+            "Learning without any labels",
+            "A type of deep learning"
+          ],
+          "answer": "Learning with labeled data"
+        },
+        {
+          "question": "Which algorithm is used for classification?",
+          "options": [
+            "Linear Regression",
+            "Decision Tree",
+            "K-Means Clustering"
+          ],
+          "answer": "Decision Tree"
+        },
+        {
+          "question": "What does a neural network consist of?",
+          "options": [
+            "Layers of neurons",
+            "SQL tables",
+            "Only input and output layers"
+          ],
+          "answer": "Layers of neurons"
+        },
+        {
+          "question": "Which type of ML algorithm is K-Means Clustering?",
+          "options": [
+            "Supervised",
+            "Unsupervised",
+            "Reinforcement"
+          ],
+          "answer": "Unsupervised"
+        },
+        {
+          "question": "What is the purpose of a loss function?",
+          "options": [
+            "To measure prediction error",
+            "To train the model",
+            "To store data"
+          ],
+          "answer": "To measure prediction error"
+        },
+        {
+          "question": "Which activation function is used in deep learning?",
+          "options": [
+            "ReLU",
+            "SQL",
+            "HTML"
+          ],
+          "answer": "ReLU"
+        },
+        {
+          "question": "What does overfitting mean?",
+          "options": [
+            "Model performs well on training but not on new data",
+            "Model generalizes well",
+            "Model performs poorly on all data"
+          ],
+          "answer": "Model performs well on training but not on new data"
+        },
+        {
+          "question": "Which of the following is a reinforcement learning technique?",
+          "options": [
+            "Q-Learning",
+            "K-Means",
+            "Random Forest"
+          ],
+          "answer": "Q-Learning"
+        }
+      ],
+      "attempt": 4
+    },
+    {
+      "id": "5",
+      "courseId": 5,
+      "name": "React.js for Beginners Quiz",
+      "level": "beginner",
+      "questions": [
+        {
+          "question": "What is React.js?",
+          "options": [
+            "A JavaScript library",
+            "A programming language",
+            "A backend framework"
+          ],
+          "answer": "A JavaScript library"
+        },
+        {
+          "question": "Which language is used to write React components?",
+          "options": [
+            "JSX",
+            "HTML",
+            "Python"
+          ],
+          "answer": "JSX"
+        },
+        {
+          "question": "What is the purpose of useState in React?",
+          "options": [
+            "To manage component state",
+            "To handle API calls",
+            "To define CSS styles"
+          ],
+          "answer": "To manage component state"
+        },
+        {
+          "question": "How do you pass data from parent to child in React?",
+          "options": [
+            "Props",
+            "State",
+            "Redux"
+          ],
+          "answer": "Props"
+        },
+        {
+          "question": "Which command creates a new React app?",
+          "options": [
+            "npx create-react-app",
+            "npm install react",
+            "react init"
+          ],
+          "answer": "npx create-react-app"
+        },
+        {
+          "question": "What is the purpose of useEffect in React?",
+          "options": [
+            "To handle side effects",
+            "To define styles",
+            "To create Redux stores"
+          ],
+          "answer": "To handle side effects"
+        },
+        {
+          "question": "Which method is used to render UI in a class component?",
+          "options": [
+            "render()",
+            "display()",
+            "update()"
+          ],
+          "answer": "render()"
+        },
+        {
+          "question": "What is a React component?",
+          "options": [
+            "A reusable UI element",
+            "A function only",
+            "A database"
+          ],
+          "answer": "A reusable UI element"
+        },
+        {
+          "question": "How do you update the state in a class component?",
+          "options": [
+            "this.setState()",
+            "this.updateState()",
+            "this.changeState()"
+          ],
+          "answer": "this.setState()"
+        },
+        {
+          "question": "Which hook is used to manage global state?",
+          "options": [
+            "useReducer",
+            "useState",
+            "useEffect"
+          ],
+          "answer": "useReducer"
+        }
+      ],
+      "attempt": 1
+    },
+    {
+      "id": "6",
+      "courseId": 6,
+      "name": "Node.js & Express Quiz",
+      "level": "intermediate",
+      "questions": [
+        {
+          "question": "What is Node.js?",
+          "options": [
+            "A JavaScript runtime",
+            "A frontend library",
+            "A database system"
+          ],
+          "answer": "A JavaScript runtime"
+        },
+        {
+          "question": "Which module is used to create a server in Node.js?",
+          "options": [
+            "http",
+            "express",
+            "fs"
+          ],
+          "answer": "http"
+        },
+        {
+          "question": "What is Express.js?",
+          "options": [
+            "A web framework for Node.js",
+            "A database system",
+            "A CSS framework"
+          ],
+          "answer": "A web framework for Node.js"
+        },
+        {
+          "question": "Which command initializes a Node.js project?",
+          "options": [
+            "npm init",
+            "node start",
+            "express init"
+          ],
+          "answer": "npm init"
+        },
+        {
+          "question": "Which method is used to send a response in Express?",
+          "options": [
+            "res.send()",
+            "req.send()",
+            "app.send()"
+          ],
+          "answer": "res.send()"
+        },
+        {
+          "question": "What does middleware do in Express?",
+          "options": [
+            "Handles requests",
+            "Defines database models",
+            "Creates frontend components"
+          ],
+          "answer": "Handles requests"
+        },
+        {
+          "question": "Which database is commonly used with Node.js?",
+          "options": [
+            "MongoDB",
+            "Oracle",
+            "PostgreSQL"
+          ],
+          "answer": "MongoDB"
+        },
+        {
+          "question": "Which HTTP method is used to fetch data?",
+          "options": [
+            "GET",
+            "POST",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "How do you install Express.js?",
+          "options": [
+            "npm install express",
+            "express install",
+            "node install express"
+          ],
+          "answer": "npm install express"
+        },
+        {
+          "question": "Which function is used to listen to server requests?",
+          "options": [
+            "app.listen()",
+            "server.start()",
+            "express.run()"
+          ],
+          "answer": "app.listen()"
+        }
+      ],
+      "attempt": 2
+    },
+    {
+      "id": "7",
+      "courseId": 7,
+      "name": "Full-Stack Development Quiz",
+      "level": "advanced",
+      "questions": [
+        {
+          "question": "What does Full-Stack Development mean?",
+          "options": [
+            "Working with both frontend and backend",
+            "Only frontend development",
+            "Only backend development"
+          ],
+          "answer": "Working with both frontend and backend"
+        },
+        {
+          "question": "Which language is commonly used for backend development?",
+          "options": [
+            "HTML",
+            "JavaScript (Node.js)",
+            "CSS"
+          ],
+          "answer": "JavaScript (Node.js)"
+        },
+        {
+          "question": "Which framework is commonly used for frontend development?",
+          "options": [
+            "React",
+            "MongoDB",
+            "Express"
+          ],
+          "answer": "React"
+        },
+        {
+          "question": "Which database is often used in MERN stack?",
+          "options": [
+            "MongoDB",
+            "MySQL",
+            "Oracle"
+          ],
+          "answer": "MongoDB"
+        },
+        {
+          "question": "Which of the following is a backend framework?",
+          "options": [
+            "Express",
+            "Bootstrap",
+            "Tailwind"
+          ],
+          "answer": "Express"
+        },
+        {
+          "question": "What does REST API stand for?",
+          "options": [
+            "Representational State Transfer",
+            "Remote Execution System",
+            "Random Event System"
+          ],
+          "answer": "Representational State Transfer"
+        },
+        {
+          "question": "Which of the following is used for state management in React?",
+          "options": [
+            "Redux",
+            "Node.js",
+            "MongoDB"
+          ],
+          "answer": "Redux"
+        },
+        {
+          "question": "Which protocol is used for secure data transfer?",
+          "options": [
+            "HTTPS",
+            "FTP",
+            "SMTP"
+          ],
+          "answer": "HTTPS"
+        },
+        {
+          "question": "What is the role of Git in Full-Stack Development?",
+          "options": [
+            "Version control",
+            "Database management",
+            "Frontend design"
+          ],
+          "answer": "Version control"
+        },
+        {
+          "question": "Which of the following is a cloud platform?",
+          "options": [
+            "AWS",
+            "Bootstrap",
+            "Django"
+          ],
+          "answer": "AWS"
+        }
+      ],
+      "attempt": 1
+    },
+    {
+      "id": "8",
+      "courseId": 8,
+      "name": "Cybersecurity Fundamentals Quiz",
+      "level": "beginner",
+      "questions": [
+        {
+          "question": "What is the purpose of Cybersecurity?",
+          "options": [
+            "Protecting systems and networks",
+            "Creating websites",
+            "Managing databases"
+          ],
+          "answer": "Protecting systems and networks"
+        },
+        {
+          "question": "What does VPN stand for?",
+          "options": [
+            "Virtual Private Network",
+            "Very Personal Network",
+            "Visual Protocol Node"
+          ],
+          "answer": "Virtual Private Network"
+        },
+        {
+          "question": "Which of the following is an example of multi-factor authentication?",
+          "options": [
+            "Password and OTP",
+            "Just a password",
+            "Only fingerprint"
+          ],
+          "answer": "Password and OTP"
+        },
+        {
+          "question": "Which of these is a common cybersecurity attack?",
+          "options": [
+            "Phishing",
+            "WordPress",
+            "Bootstrap"
+          ],
+          "answer": "Phishing"
+        },
+        {
+          "question": "What is a firewall?",
+          "options": [
+            "A network security system",
+            "A web server",
+            "A frontend library"
+          ],
+          "answer": "A network security system"
+        },
+        {
+          "question": "What does HTTPS stand for?",
+          "options": [
+            "HyperText Transfer Protocol Secure",
+            "HyperText Tracking Protocol Service",
+            "High Transfer Technology System"
+          ],
+          "answer": "HyperText Transfer Protocol Secure"
+        },
+        {
+          "question": "Which of the following is an example of encryption?",
+          "options": [
+            "AES",
+            "CSS",
+            "HTML"
+          ],
+          "answer": "AES"
+        },
+        {
+          "question": "What is the strongest type of password?",
+          "options": [
+            "A mix of letters, numbers, and symbols",
+            "123456",
+            "Your name"
+          ],
+          "answer": "A mix of letters, numbers, and symbols"
+        },
+        {
+          "question": "Which of these is NOT a type of malware?",
+          "options": [
+            "Trojan",
+            "Firewall",
+            "Ransomware"
+          ],
+          "answer": "Firewall"
+        },
+        {
+          "question": "What should you do to protect your personal data online?",
+          "options": [
+            "Use strong passwords and enable 2FA",
+            "Share your passwords with friends",
+            "Use the same password for everything"
+          ],
+          "answer": "Use strong passwords and enable 2FA"
+        }
+      ],
+      "attempt": 3
+    },
+    {
+      "id": "9",
+      "courseId": 9,
+      "name": "Cloud Computing Quiz",
+      "level": "intermediate",
+      "questions": [
+        {
+          "question": "What is cloud computing?",
+          "options": [
+            "Storing and accessing data over the internet",
+            "Using a computer offline",
+            "A programming language"
+          ],
+          "answer": "Storing and accessing data over the internet"
+        },
+        {
+          "question": "Which of the following is a cloud service provider?",
+          "options": [
+            "AWS",
+            "React",
+            "Node.js"
+          ],
+          "answer": "AWS"
+        },
+        {
+          "question": "What does SaaS stand for?",
+          "options": [
+            "Software as a Service",
+            "Security as a Service",
+            "Storage as a Service"
+          ],
+          "answer": "Software as a Service"
+        },
+        {
+          "question": "Which of the following is a cloud storage service?",
+          "options": [
+            "Google Drive",
+            "MySQL",
+            "MongoDB"
+          ],
+          "answer": "Google Drive"
+        },
+        {
+          "question": "Which cloud model provides complete control over the infrastructure?",
+          "options": [
+            "IaaS",
+            "PaaS",
+            "SaaS"
+          ],
+          "answer": "IaaS"
+        },
+        {
+          "question": "What is a Virtual Machine (VM)?",
+          "options": [
+            "A software-based computer",
+            "A physical computer",
+            "A network device"
+          ],
+          "answer": "A software-based computer"
+        },
+        {
+          "question": "Which of the following is an example of a hybrid cloud?",
+          "options": [
+            "Combination of public and private cloud",
+            "Only private cloud",
+            "Only public cloud"
+          ],
+          "answer": "Combination of public and private cloud"
+        },
+        {
+          "question": "What is the main benefit of cloud computing?",
+          "options": [
+            "Scalability and flexibility",
+            "Slower performance",
+            "Higher costs"
+          ],
+          "answer": "Scalability and flexibility"
+        },
+        {
+          "question": "What is serverless computing?",
+          "options": [
+            "A cloud execution model where the provider manages infrastructure",
+            "Running a server locally",
+            "An alternative to cloud computing"
+          ],
+          "answer": "A cloud execution model where the provider manages infrastructure"
+        },
+        {
+          "question": "Which of these is an example of cloud computing in daily life?",
+          "options": [
+            "Streaming movies on Netflix",
+            "Playing games offline",
+            "Using Notepad on Windows"
+          ],
+          "answer": "Streaming movies on Netflix"
+        }
+      ],
+      "attempt": 3
+    },
+    {
+      "id": "10",
+      "courseId": 10,
+      "name": "Blockchain Essentials Quiz",
+      "level": "advanced",
+      "questions": [
+        {
+          "question": "What is blockchain?",
+          "options": [
+            "A decentralized digital ledger",
+            "A type of cloud storage",
+            "A programming language"
+          ],
+          "answer": "A decentralized digital ledger"
+        },
+        {
+          "question": "Which cryptocurrency introduced blockchain technology?",
+          "options": [
+            "Bitcoin",
+            "Ethereum",
+            "Litecoin"
+          ],
+          "answer": "Bitcoin"
+        },
+        {
+          "question": "What is a smart contract?",
+          "options": [
+            "A self-executing contract with coded terms",
+            "A legal contract between two people",
+            "A banking agreement"
+          ],
+          "answer": "A self-executing contract with coded terms"
+        },
+        {
+          "question": "What does a blockchain block contain?",
+          "options": [
+            "Data, hash, and previous block hash",
+            "Only data",
+            "Only transaction records"
+          ],
+          "answer": "Data, hash, and previous block hash"
+        },
+        {
+          "question": "Which of the following is NOT a consensus mechanism in blockchain?",
+          "options": [
+            "Proof of Work (PoW)",
+            "Proof of Stake (PoS)",
+            "File Transfer Protocol (FTP)"
+          ],
+          "answer": "File Transfer Protocol (FTP)"
+        },
+        {
+          "question": "What is the role of miners in blockchain?",
+          "options": [
+            "Validate and add transactions to the blockchain",
+            "Store passwords",
+            "Write smart contracts"
+          ],
+          "answer": "Validate and add transactions to the blockchain"
+        },
+        {
+          "question": "What is Ethereum primarily used for?",
+          "options": [
+            "Smart contracts and decentralized applications",
+            "Cloud computing",
+            "Data science"
+          ],
+          "answer": "Smart contracts and decentralized applications"
+        },
+        {
+          "question": "What is a public blockchain?",
+          "options": [
+            "A blockchain accessible by anyone",
+            "A private blockchain used only by companies",
+            "A blockchain with no security"
+          ],
+          "answer": "A blockchain accessible by anyone"
+        },
+        {
+          "question": "What problem does blockchain solve?",
+          "options": [
+            "Trust and security in digital transactions",
+            "Faster web browsing",
+            "Better email communication"
+          ],
+          "answer": "Trust and security in digital transactions"
+        },
+        {
+          "question": "What is a private blockchain?",
+          "options": [
+            "A blockchain with restricted access",
+            "A blockchain where anyone can participate",
+            "A gaming network"
+          ],
+          "answer": "A blockchain with restricted access"
+        }
+      ],
+      "attempt": 5
+    },
+    {
+      "id": "11",
+      "courseId": 11,
+      "name": "DevOps and CI/CD Quiz",
+      "level": "intermediate",
+      "questions": [
+        {
+          "question": "What does DevOps stand for?",
+          "options": [
+            "Development and Operations",
+            "Device Optimization",
+            "Data Over Process"
+          ],
+          "answer": "Development and Operations"
+        },
+        {
+          "question": "What is the primary goal of DevOps?",
+          "options": [
+            "Faster and more reliable software delivery",
+            "Better social media marketing",
+            "Data visualization"
+          ],
+          "answer": "Faster and more reliable software delivery"
+        },
+        {
+          "question": "What is Continuous Integration (CI)?",
+          "options": [
+            "Merging code frequently to a shared repository",
+            "Writing software documentation",
+            "A design methodology"
+          ],
+          "answer": "Merging code frequently to a shared repository"
+        },
+        {
+          "question": "What is the purpose of Continuous Deployment (CD)?",
+          "options": [
+            "Automatically deploying changes to production",
+            "Fixing hardware issues",
+            "Creating video content"
+          ],
+          "answer": "Automatically deploying changes to production"
+        },
+        {
+          "question": "Which tool is commonly used for CI/CD pipelines?",
+          "options": [
+            "Jenkins",
+            "Photoshop",
+            "Excel"
+          ],
+          "answer": "Jenkins"
+        },
+        {
+          "question": "What does Infrastructure as Code (IaC) mean?",
+          "options": [
+            "Managing infrastructure using code",
+            "Writing code manually",
+            "Optimizing CPU usage"
+          ],
+          "answer": "Managing infrastructure using code"
+        },
+        {
+          "question": "Which cloud platform supports DevOps practices?",
+          "options": [
+            "AWS",
+            "WordPress",
+            "Windows XP"
+          ],
+          "answer": "AWS"
+        },
+        {
+          "question": "Which of the following is a containerization tool?",
+          "options": [
+            "Docker",
+            "Java",
+            "Photoshop"
+          ],
+          "answer": "Docker"
+        },
+        {
+          "question": "What is the role of monitoring in DevOps?",
+          "options": [
+            "Tracking performance and errors",
+            "Enhancing video resolution",
+            "Building mobile apps"
+          ],
+          "answer": "Tracking performance and errors"
+        },
+        {
+          "question": "What is Kubernetes used for?",
+          "options": [
+            "Managing containerized applications",
+            "Editing photos",
+            "Creating PowerPoint slides"
+          ],
+          "answer": "Managing containerized applications"
+        }
+      ],
+      "attempt": 2
+    },
+    {
+      "id": "12",
+      "courseId": 12,
+      "name": "Internet of Things (IoT) Quiz",
+      "level": "beginner",
+      "questions": [
+        {
+          "question": "What does IoT stand for?",
+          "options": [
+            "Internet of Things",
+            "Internal Office Technology",
+            "Integrated Online Transactions"
+          ],
+          "answer": "Internet of Things"
+        },
+        {
+          "question": "Which of the following is an example of an IoT device?",
+          "options": [
+            "Smart Thermostat",
+            "Desktop Computer",
+            "Printer"
+          ],
+          "answer": "Smart Thermostat"
+        },
+        {
+          "question": "What is the main function of IoT?",
+          "options": [
+            "Connecting devices to the internet for communication",
+            "Storing personal data",
+            "Increasing CPU speed"
+          ],
+          "answer": "Connecting devices to the internet for communication"
+        },
+        {
+          "question": "Which technology enables IoT communication?",
+          "options": [
+            "Wi-Fi",
+            "USB",
+            "CD-ROM"
+          ],
+          "answer": "Wi-Fi"
+        },
+        {
+          "question": "What is an IoT gateway?",
+          "options": [
+            "A device that connects IoT devices to the cloud",
+            "A firewall",
+            "A video streaming service"
+          ],
+          "answer": "A device that connects IoT devices to the cloud"
+        },
+        {
+          "question": "Which of the following is NOT an IoT communication protocol?",
+          "options": [
+            "HTTP",
+            "MQTT",
+            "Bluetooth"
+          ],
+          "answer": "HTTP"
+        },
+        {
+          "question": "What is a major concern in IoT?",
+          "options": [
+            "Security and Privacy",
+            "Image quality",
+            "Graphics processing"
+          ],
+          "answer": "Security and Privacy"
+        },
+        {
+          "question": "Which of these industries uses IoT?",
+          "options": [
+            "Healthcare",
+            "Movie Production",
+            "Book Publishing"
+          ],
+          "answer": "Healthcare"
+        },
+        {
+          "question": "What is edge computing in IoT?",
+          "options": [
+            "Processing data closer to the device",
+            "Storing data in a remote location",
+            "A video editing tool"
+          ],
+          "answer": "Processing data closer to the device"
+        },
+        {
+          "question": "Which of these is an IoT cloud platform?",
+          "options": [
+            "AWS IoT",
+            "Microsoft Paint",
+            "Spotify"
+          ],
+          "answer": "AWS IoT"
+        }
+      ],
+      "attempt": 5
+    }
+  ],
+  "results": [
+    {
+      "id": "aa12",
+      "quizId": "1",
+      "quizName": "Web Development Basics Quiz",
+      "score": 18,
+      "totalQuestions": 10,
+      "date": "2025-03-09T15:00:04.294Z",
+      "attempt": 1,
+      "questionsAttended": 10
+    },
+    {
+      "id": "a7d7",
+      "quizId": "1",
+      "quizName": "Web Development Basics Quiz",
+      "score": 0,
+      "totalQuestions": 10,
+      "date": "2025-03-09T15:05:25.887Z",
+      "attempt": 2,
+      "questionsAttended": 0
+    },
+    {
+      "id": "87a4",
+      "quizId": "9",
+      "quizName": "Cloud Computing Quiz",
+      "score": 9,
+      "totalQuestions": 10,
+      "date": "2025-03-09T15:07:24.818Z",
+      "attempt": 2,
+      "questionsAttended": 9
+    },
+    {
+      "id": "8487",
+      "quizId": "12",
+      "quizName": "Internet of Things (IoT) Quiz",
+      "score": 7,
+      "totalQuestions": 10,
+      "date": "2025-03-09T15:13:29.719Z",
+      "attempt": 4,
+      "questionsAttended": 10
+    },
+    {
+      "id": "73af",
+      "quizId": "5",
+      "quizName": "React.js for Beginners Quiz",
+      "score": 7,
+      "totalQuestions": 10,
+      "date": "2025-03-09T15:17:06.121Z",
+      "attempt": 1,
+      "questionsAttended": 10
+    },
+    {
+      "id": "7a55",
+      "quizId": "10",
+      "quizName": "Blockchain Essentials Quiz",
+      "score": 8,
+      "totalQuestions": 10,
+      "date": "2025-03-09T15:39:34.989Z",
+      "attempt": 4,
+      "questionsAttended": 10
+    },
+    {
+      "id": "aded",
+      "quizId": "2",
+      "quizName": "Advanced JavaScript Quiz",
+      "score": 8,
+      "totalQuestions": 10,
+      "date": "2025-03-09T15:41:55.269Z",
+      "attempt": 1,
+      "questionsAttended": 10
+    },
+    {
+      "id": "48eb",
+      "quizId": "12",
+      "quizName": "Internet of Things (IoT) Quiz",
+      "score": 6,
+      "totalQuestions": 10,
+      "date": "2025-03-09T15:46:22.648Z",
+      "attempt": 5,
+      "questionsAttended": 10
+    },
+    {
+      "id": "6c9a",
+      "quizId": "3",
+      "quizName": "Python for Data Science Quiz",
+      "score": 7,
+      "totalQuestions": 10,
+      "date": "2025-03-09T15:57:07.836Z",
+      "attempt": 1,
+      "questionsAttended": 10
+    },
+    {
+      "id": "2c56",
+      "quizId": "1",
+      "quizName": "Web Development Basics Quiz",
+      "score": 10,
+      "totalQuestions": 10,
+      "date": "2025-03-09T16:20:29.448Z",
+      "attempt": 11,
+      "questionsAttended": 10
+    },
+    {
+      "id": "d02e",
+      "quizId": "6",
+      "quizName": "Node.js & Express Quiz",
+      "score": 10,
+      "totalQuestions": 10,
+      "date": "2025-03-09T16:31:55.417Z",
+      "attempt": 1,
+      "questionsAttended": 10
+    },
+    {
+      "id": "87ec",
+      "quizId": "6",
+      "quizName": "Node.js & Express Quiz",
+      "score": 0,
+      "totalQuestions": 10,
+      "date": "2025-03-09T16:33:02.682Z",
+      "attempt": 2,
+      "questionsAttended": 0
+    },
+    {
+      "id": "0126",
+      "quizId": "7",
+      "quizName": "Full-Stack Development Quiz",
+      "score": 8,
+      "totalQuestions": 10,
+      "date": "2025-03-09T16:34:50.975Z",
+      "attempt": 1,
+      "questionsAttended": 10
+    },
+    {
+      "id": "7463",
+      "quizId": "8",
+      "quizName": "Cybersecurity Fundamentals Quiz",
+      "score": 8,
+      "totalQuestions": 10,
+      "date": "2025-03-09T16:36:13.631Z",
+      "attempt": 3,
+      "questionsAttended": 10
+    },
+    {
+      "id": "d86e",
+      "quizId": "1",
+      "quizName": "Web Development Basics Quiz",
+      "score": 4,
+      "totalQuestions": 10,
+      "date": "2025-03-09T16:36:58.801Z",
+      "attempt": 12,
+      "questionsAttended": 5
+    },
+    {
+      "id": "2fdd",
+      "quizId": "4",
+      "quizName": "Machine Learning Basics Quiz",
+      "score": 8,
+      "totalQuestions": 10,
+      "date": "2025-03-09T16:38:51.897Z",
+      "attempt": 3,
+      "questionsAttended": 10
+    },
+    {
+      "id": "e194",
+      "quizId": "11",
+      "quizName": "DevOps and CI/CD Quiz",
+      "score": 10,
+      "totalQuestions": 10,
+      "date": "2025-03-09T16:45:25.415Z",
+      "attempt": 2,
+      "questionsAttended": 10
+    },
+    {
+      "id": "4f0c",
+      "quizId": "4",
+      "quizName": "Machine Learning Basics Quiz",
+      "score": 7,
+      "totalQuestions": 10,
+      "date": "2025-03-10T03:38:01.329Z",
+      "attempt": 4,
+      "questionsAttended": 10
+    },
+    {
+      "id": "de7b",
+      "quizId": "1",
+      "quizName": "Web Development Basics Quiz",
+      "score": 10,
+      "totalQuestions": 10,
+      "date": "2025-03-10T05:23:47.451Z",
+      "attempt": 13,
+      "questionsAttended": 10
+    }
+  ],
+  "messages": [
+    {
+      "id": "feba",
+      "name": "Maria",
+      "email": "maria@gmail.com",
+      "message": "Need some more courses on Cloud Computing."
+    },
+    {
+      "id": "64fa",
+      "name": "Stephen",
+      "email": "stephen@gmail.com",
+      "message": "Provide interview based questions."
+    },
+    {
+      "id": "3b7e",
+      "name": "Raechel",
+      "email": "raechel@gmail.com",
+      "message": "Add beginner level python course."
+    },
+    {
+      "id": "4343",
+      "name": "John",
+      "email": "john@gmail.com",
+      "message": "Can I know the correct answers for the quizzes?"
+    },
+    {
+      "id": "b774",
+      "name": "xx",
+      "email": "dfh@gmail.com",
+      "message": "sdfgh"
+    }
+  ]
+}
