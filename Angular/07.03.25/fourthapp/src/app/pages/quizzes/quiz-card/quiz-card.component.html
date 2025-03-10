@@ -1,0 +1,34 @@
+<div class="quiz-container" *ngIf="quiz">
+  <h2>{{ quiz?.name }}</h2>
+
+  <p *ngIf="quiz?.questions?.length > 0">
+    Question {{ currentQuestionIndex + 1 }} of {{ quiz?.questions?.length }}
+  </p>
+
+  <div *ngIf="quiz?.questions?.length > 0; else noQuestions">
+    <div class="question-card">
+      <p><strong>{{ quiz?.questions[currentQuestionIndex]?.question }}</strong></p>
+      
+      <div *ngFor="let option of quiz?.questions[currentQuestionIndex]?.options">
+        <label>
+          <input type="radio" [name]="'option' + currentQuestionIndex" [value]="option" [(ngModel)]="selectedAnswer"> 
+          {{ option }}
+        </label>
+      </div>
+    </div>
+
+    <div class="button-container">
+      <button (click)="previousQuestion()" *ngIf="currentQuestionIndex > 0">Previous</button>
+  
+      <button (click)="nextQuestion()" *ngIf="currentQuestionIndex < quiz?.questions?.length - 1">Next</button>
+      
+      <button (click)="submitQuiz()" *ngIf="currentQuestionIndex === quiz?.questions?.length - 1">Submit</button>
+    </div>
+  </div>
+
+  <ng-template #noQuestions>
+    <p>No questions available for this quiz.</p>
+  </ng-template>
+
+  <button (click)="goBack()">Back</button>
+</div>

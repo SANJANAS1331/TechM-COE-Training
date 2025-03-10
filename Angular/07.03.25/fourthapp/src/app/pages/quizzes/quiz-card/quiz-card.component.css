@@ -1,0 +1,62 @@
+.quiz-container {
+    width: 100%;
+    max-width: 2000px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.question-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 500px; 
+    max-width: 2000px; 
+    text-align: left; 
+    margin: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.question-card:hover {
+    transform: scale(1.05);
+}
+
+.question-card p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.question-card label {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.question-card input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    display: block;
+    margin: 20px auto 0;
+}
+
+button:hover {
+    background: #333;
+}
