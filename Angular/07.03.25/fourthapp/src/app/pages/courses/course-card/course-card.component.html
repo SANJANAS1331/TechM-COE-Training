@@ -1,0 +1,11 @@
+<div *ngIf="course" class="center-content">
+    <h2>{{ course.name }}</h2>
+    <p>{{ course.description }}</p>
+    <ul>
+      <li *ngFor="let content of course.contents" [ngClass]="getContentClass(content)">
+        {{ content }}
+      </li>
+    </ul>
+    <button (click)="goBack()">Back to Courses</button>
+  </div>
+  
