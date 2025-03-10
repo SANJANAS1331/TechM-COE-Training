@@ -1,0 +1,87 @@
+[
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "company": "Google",
+      "location": "Remote",
+      "skills": ["HTML", "CSS", "JavaScript", "React", "Bootstrap", "Angular"]
+    },
+    {
+      "id": 2,
+      "title": "Backend Developer",
+      "company": "Microsoft",
+      "location": "New York",
+      "skills": ["Node.js", "Express.js", "MongoDB", "SQL", "REST APIs"]
+    },
+    {
+      "id": 3,
+      "title": "UI/UX Designer",
+      "company": "Apple",
+      "location": "San Francisco",
+      "skills": ["Figma", "Adobe XD", "Sketch", "Wireframing", "Prototyping"]
+    },
+    {
+      "id": 4,
+      "title": "Data Scientist",
+      "company": "Facebook",
+      "location": "Seattle",
+      "skills": ["Python", "R", "TensorFlow", "Data Visualization", "SQL"]
+    },
+    {
+      "id": 5,
+      "title": "Full Stack Developer",
+      "company": "Amazon",
+      "location": "Chicago",
+      "skills": ["JavaScript", "React", "Node.js", "MongoDB", "Docker"]
+    },
+    {
+      "id": 6,
+      "title": "Marketing Manager",
+      "company": "Tesla",
+      "location": "Austin",
+      "skills": ["SEO", "Google Ads", "Social Media", "Analytics", "Content Marketing"]
+    },
+    {
+      "id": 7,
+      "title": "Security Analyst",
+      "company": "IBM",
+      "location": "Washington D.C.",
+      "skills": ["Network Security", "Penetration Testing", "Cryptography", "SIEM", "Firewalls"]
+    },
+    {
+      "id": 8,
+      "title": "AI Engineer",
+      "company": "OpenAI",
+      "location": "Remote",
+      "skills": ["Machine Learning", "Deep Learning", "Python", "PyTorch", "NLP"]
+    },
+    {
+      "id": 9,
+      "title": "DevOps Engineer",
+      "company": "Netflix",
+      "location": "Los Angeles",
+      "skills": ["AWS", "Docker", "Kubernetes", "Jenkins", "CI/CD Pipelines"]
+    },
+    {
+      "id": 10,
+      "title": "Cloud Engineer",
+      "company": "Oracle",
+      "location": "San Diego",
+      "skills": ["AWS", "Azure", "Google Cloud", "Terraform", "Kubernetes"]
+    },
+    {
+      "id": 11,
+      "title": "Business Analyst",
+      "company": "Deloitte",
+      "location": "Boston",
+      "skills": ["Excel", "Power BI", "Tableau", "SQL", "Business Strategy"]
+    },
+    {
+      "id": 12,
+      "title": "Project Manager",
+      "company": "Accenture",
+      "location": "Dallas",
+      "skills": ["Agile", "Scrum", "Project Planning", "Risk Management", "Leadership"]
+    }
+  ]
+  
